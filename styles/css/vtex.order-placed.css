@@ -29,9 +29,6 @@
 .totalListItemLabel , .totalListItemValue {
     color: #676767;
 } 
-.confirmationIconWrapper svg{
-    color: #fff;
-}
 
 .totalListItem:last-child .totalListItemLabel , .totalListItem:last-child .totalListItemValue{
     color: #1f2942 !important;

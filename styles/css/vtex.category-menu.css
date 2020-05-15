@@ -4,20 +4,14 @@
 /* .itemContainer a{font-weight:bold;font-size:.9em;color:#000;padding:1.8em 0;margin: 0 .5em} */
 .firstLevelLink{font-weight: normal;font-size: .9em;color:#fff;word-wrap: none;white-space: normal;}
 .secondLevelLink{word-wrap: none;white-space: normal;}
-.itemContainer ul{overflow:hidden;}
-.itemContainer:first-child ul{justify-content: left;}
 .itemContainer .link{color:#fff}
 
 .container {
-  background-color: #0e2542;
+  background-color: #09609f;
 }
 
 .itemContainer {
   color: #ffffff;
-}
-.itemContainer a, .itemContainer span{color:#fff;}
-.firstLevelLink{
-  border-top: 2px solid #fff
 }
 
 .secondLevelLink{
@@ -29,7 +23,7 @@
     /* Hover */
     .itemContainer .itemContainer{
       z-index: 9;
-      background: rgb(16, 44, 69);
+      background: #70b1ea;
       border: 0px;
       height:auto;
       padding:.5em 0;
@@ -37,14 +31,8 @@
     .itemContainer:first-child .itemContainer{
       min-height: 500px;
     }
-    /*
-    .itemContainer:first-child .itemContainer ul{justify-content: left;overflow: hidden;}
-    .itemContainer:first-child span{background: url(https://brasiltatica.vteximg.com.br/assets/vtex.file-manager-graphql/images/icon-menu___d8dde54….png) no-repeat center left scroll transparent;color: transparent;width: 20px;}
-    .itemContainer:first-child .itemContainer ul li{width:190px}
-    */
 }
 @media only screen and (min-width: 80em){
       .container{padding-left: 1em;}
-      .itemContainer:first-child ul li{width:203px;}
 }
     
