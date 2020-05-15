@@ -1,0 +1,205 @@
+.logoContainer--logo-desktop{
+  display: block;
+  padding: 10px;
+  max-width: 300px!important;
+  max-height: 70px!important;
+  min-width: 120px;
+}
+.logoImage--logo-desktop{
+  width: 100%;
+  height: 100%;
+}
+/*
+.searchBarContainer label > div{border:0}
+.searchBarContainer input{text-align: right;}
+.searchBarIcon svg{color:#000;}
+*/
+.imageElement--img-bannerSpecial{width:100%;height:100%;max-height: 100% !important;}
+.form--content-newsletter{max-width: 45em;}
+.label--content-newsletter{
+  font-weight: normal;
+  font-size: 1em;
+  font-weight: normal;
+  color: #111;
+  font-style: italic;  
+}
+/* .inputGroup--content-newsletter label div{border:none;}
+.inputGroup--content-newsletter input{
+  background: #fff;
+  padding: 2em;  
+  border-radius: 7px;
+  box-shadow: 0 0 10px #eaeaea;  
+}
+*/
+.buttonContainer--content-newsletter{
+  justify-content: center;
+}
+.infoCardContainer--info-card-middle{margin:4em 0 2em;}
+.sellingPriceValue{font-weight: normal;color:#000;font-size:1em;}
+.discountContainer{width:100%;}
+.discountInsideContainer{
+  position: absolute;
+  top: -0.6em;
+  right: 0;
+  width: 100%;
+  font-size:1em;  
+}
+
+.infoCardHeadline--info-card-home,
+.infoCardHeadline--info-card-middle{
+  color:#fff;
+}
+
+.buyButtonText{
+  padding:1em;
+}
+
+.productBrand--productDetails-name{
+  font-size:1.2em;
+  font-weight: bold;
+}
+
+.price_sellingPriceContainer--productDetails-price{
+  margin: 1em 0 0;
+}
+
+.productDescriptionTitle{
+  display:none;
+}
+
+.carouselGaleryThumbs .swiper-slide{
+  margin: 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+  opacity: .6;  
+  transition: .2s linear;
+}
+.carouselGaleryThumbs .swiper-slide:hover{
+  opacity:1;
+}
+
+.carouselGaleryThumbs .swiper-slide-active{
+  border: 1px solid #ff6500;
+  opacity:1;
+}
+
+.productImage{background:#fff;}
+.highlightContent{display:none;}
+.skuSelectorNameContainer{margin:1.5em 0 0;}
+/* Specification */
+
+.specificationsTableContainer{padding:0;margin: 0px 2em;}
+.specificationsTitle,
+.specificationsTablePropertyHeading, 
+.specificationsTableSpecificationHeading{display:none;}
+
+.specificationsTable tr:nth-child(odd){
+  background:#f4f4f4;
+}
+
+
+.specificationItemProperty{
+  width: 40%;
+  font-size: .75rem;
+  border-right: 1px solid #bdbdbd;
+  color: #28538a;
+  font-weight: 500;
+  text-align: right;
+  text-transform: uppercase;  
+  border-bottom:0;
+}
+.specificationItemSpecifications{
+  border:0;
+  font-size:.75rem;
+}
+
+
+  .imageElementLink--banner-segment-img:hover,
+  .imageElement--banner-segment-img{opacity:.9}
+  .imageElement--banner-segment-img{max-width:100% !important;}
+
+  /* info card */
+
+  .infoCardHeadline--info-card-featured{color: #3f3f40;font-size:2em;padding: 0 1em;}
+  .infoCardSubhead--info-card-featured{padding: 0 1em;}
+
+  /* Description Product */
+
+.productDescriptionText .description-custom-top{
+    display: flex;
+}
+
+.productDescriptionText .description-custom-top .imageProduct{
+    max-width: 600px;
+    max-height: 350px;
+    overflow: hidden;
+    align-self: center;
+    width: 40%;
+    margin-right: 2em;
+}
+
+.productDescriptionText .description-custom-top .infoProduct{
+    text-align: left;
+    align-self:center;
+}
+
+.productDescriptionText .description-custom-top .infoProduct h3{
+    font-size:2em;
+    color:#000;
+    font-weight:bold;
+    margin-bottom:1em;
+}
+
+.productDescriptionText .description-custom-top .infoProduct p{
+    line-height:1.5;
+    max-width: 650px;
+}
+
+.productDescriptionText .description-custom-bottom{
+    display:flex;
+    margin-top:2em;
+    padding-bottom: 3em;
+    border-bottom: 2px solid #eee
+}
+.productDescriptionText .description-custom-bottom p{
+    margin: 0 5em;
+    line-height:2;
+    font-size: 1.1em;
+    font-weight:normal;
+    text-align: justify;
+    color: #828181;
+}
+
+.imageElement--img-register{
+  border-radius: 100%;
+}
+
+.productDescriptionText{
+  font-size: 0.90rem;
+  border-right: 1px solid #bdbdbd;
+  color: #28538a;
+  font-weight: 500;
+  text-align: left;
+  border-bottom: 0;
+  background: #f4f4f4;
+  padding: 40px;
+  margin: 0px 2rem;
+  border: none;
+}
+
+.specificationItemProperty{
+  display: none
+}
+
+ @media only screen and (min-width: 40em){
+  .label--content-newsletter{
+    font-size: 1.75em;
+    font-style: normal;
+  }
+  .price_installmentContainer--productDetails-price{
+    text-transform: lowercase;
+  }
+  .infoCardSubhead--info-card-featured{max-width:35em;}
+  
+}

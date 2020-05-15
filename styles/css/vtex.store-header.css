@@ -1,0 +1,26 @@
+.headerStickyRow{
+    border-bottom:0;
+}
+
+.headerRowBackground{
+    border-bottom: 1px solid #eee;
+}
+
+.headerRowBackground--header-lineOne{
+    background:#f4f4f4;
+}
+
+.headerRowContainer--content-searchBar{
+    justify-content: center;
+}
+
+.headerRowContentContainer--category-menu-background,
+.headerRowContainer--category-menu-background,
+.headerRowBackground--category-menu-background {
+    background-color: #0e2542;
+}
+
+.headerRowContentContainer--header-lineOne{
+    background: #0e2542;
+    padding: 0px 35px;
+}

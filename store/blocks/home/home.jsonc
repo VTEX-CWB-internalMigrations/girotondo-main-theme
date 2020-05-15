@@ -1,0 +1,610 @@
+{
+  "store.home": {
+    "blocks": [
+      "flex-layout.row#deals",
+      "carousel#default",
+      // "flex-layout.row#banner-featured",
+      /* You can make references to blocks defined in other files.
+       * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
+      "rich-text#shelfTitle",
+      "flex-layout.row#shelf",
+      "rich-text#shelfTitle2",
+      "flex-layout.row#shelf2",
+      "rich-text#shelfTitle3",
+      "flex-layout.row#shelf3",
+      "rich-text#shelfTitle4",
+      "flex-layout.row#shelf4",
+      // "flex-layout.row#banners-segmented",      
+      // "flex-layout.row#shelf-special",
+      // "flex-layout.row#bannerMiddle-row",
+      "flex-layout.row#featured1-grid",
+      "flex-layout.row#featured2-grid",
+      "flex-layout.row#featured3-grid",
+      "flex-layout.row#featured4-grid"
+      // "tab-layout#shelf-tabs",
+      // "newsletter"
+    ]
+  },
+  // Caroussel
+  "carousel#default": {
+    "props": {
+      "autoplay": false,
+      "banners": [
+        {
+          "image": "https://brasiltatica.vteximg.com.br/assets/vtex.file-manager-graphql/images/banner-01___01e2fe83dce5545580c2a5a5f5079da6.jpg",
+          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
+        },
+        {
+          "image": "https://brasiltatica.vteximg.com.br/assets/vtex.file-manager-graphql/images/banner-01___01e2fe83dce5545580c2a5a5f5079da6.jpg",
+          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
+        }
+      ],
+      "height": 455,
+      "showArrows": true,
+      "showDots": true
+    }
+  },
+  // Banners featured
+  "flex-layout.row#banner-featured": {
+    "children": [
+      "flex-layout.col#featured1",
+      "flex-layout.col#featured2"
+    ],
+    "props": {
+      "blockClass": "banner-featured-content"
+    }
+  },
+  "flex-layout.col#featured1": {
+    "children": [
+      "image#featured-image-01"
+    ],
+    "props": {
+      "blockClass": "banner-featured-01"
+    }
+  },
+  "image#featured-image-01": {
+    "props": {
+      "src": "https://brasiltatica.vteximg.com.br/assets/vtex.file-manager-graphql/images/featured-01___60178c661ac300e50d27d612326d02bf.jpg",
+      "maxHeight": "100%",
+      "maxWidth": "100%"
+    }
+  },
+  "flex-layout.col#featured2": {
+    "children": [
+      "image#featured-image-02"
+    ],
+    "props": {
+      "blockClass": "banner-featured-02"
+    }
+  },
+  "image#featured-image-02": {
+    "props": {
+      "src": "https://brasiltatica.vteximg.com.br/assets/vtex.file-manager-graphql/images/featured-02___d9fef2aa7d6e5de9df2bebf35a95dd25.jpg",
+      "maxHeight": "100%",
+      "maxWidth": "100%"
+    }
+  },
+  //SHELF ROWS
+  "flex-layout.row#shelf": {
+    "children": [
+      "list-context.product-list#home-1"
+    ]
+  },
+  "flex-layout.row#shelf2": {
+    "children": [
+      "list-context.product-list#home-2"
+    ]
+  },
+  "flex-layout.row#shelf3": {
+    "children": [
+      "list-context.product-list#home-3-true"
+    ]
+  },
+  "flex-layout.row#shelf4": {
+    "children": [
+      "list-context.product-list#home-4-true"
+    ]
+  },
+  // SHELF TITLE
+  "rich-text#shelfTitle": {
+    "props": {
+      "text": "Seu título aqui",
+      "blockClass": "shelfTitle"
+    }
+  },
+  "rich-text#shelfTitle2": {
+    "props": {
+      "text": "Seu título aqui",
+      "blockClass": "shelfTitle"
+    }
+  },
+  "rich-text#shelfTitle3": {
+    "props": {
+      "text": "Seu título aqui",
+      "blockClass": "shelfTitle"
+    }
+  },
+  "rich-text#shelfTitle4": {
+    "props": {
+      "text": "Seu título aqui",
+      "blockClass": "shelfTitle"
+    }
+  },
+  // Shelf Primary
+  "list-context.product-list#home-1": {
+    "blocks": [
+      "product-summary.shelf#featured"
+    ],
+    "children": [
+      "slider-layout#demo-products"
+    ],
+    "props": {
+      "collection": "138",
+      "blockClass": "shelf-featured",
+      "titleText": "DESTAQUES",
+      "installmentCriteria": "MAX_WITH_INTEREST"
+    }
+  },
+  "list-context.product-list#home-2": {
+    "blocks": [
+      "product-summary.shelf#featured"
+    ],
+    "children": [
+      "slider-layout#demo-products"
+    ],
+    "props": {
+      "collection": "143",
+      "blockClass": "shelf-featured",
+      "titleText": "DESTAQUES",
+      "installmentCriteria": "MAX_WITH_INTEREST"
+    }
+  },
+  "list-context.product-list#home-3-true": {
+    "blocks": [
+      "product-summary.shelf#featured"
+    ],
+    "children": [
+      "slider-layout#demo-products"
+    ],
+    "props": {
+      "collection": "145",
+      "blockClass": "shelf-featured",
+      "titleText": "DESTAQUES",
+      "installmentCriteria": "MAX_WITH_INTEREST"
+    }
+  },
+  "list-context.product-list#home-4-true": {
+    "blocks": [
+      "product-summary.shelf#featured"
+    ],
+    "children": [
+      "slider-layout#demo-products"
+    ],
+    "props": {
+      "collection": "144",
+      "blockClass": "shelf-featured",
+      "orderBy": "OrderByTopSaleDESC",
+      "productList": {
+        "blockClass": "shelf-featured",
+        "titleText": "DESTAQUES",
+        "installmentCriteria": "MAX_WITH_INTEREST"
+      }
+    }
+  },
+  "slider-layout#demo-products": {
+    "props": {
+      "showNavigationArrows": true,
+      "navigationStep": "Number",
+      "usePagination": true,
+      "infinite": true,
+      "maxItems": 10
+    }
+  },
+  "product-summary.shelf#featured": {
+    "children": [
+      "stack-layout#prodsum",
+      "product-summary-name",
+      "product-summary-price",
+      "cash-discount-summary#fourPercent",
+      "product-identifier.summary",
+      "product-summary-buy-button"
+      // "rich-text#buyButtonShelf"   
+    ]
+  },
+  "product-summary-name": {
+    "props": {
+      "blockClass": "shelf-nameProduct-featured"
+    }
+  },
+  "rich-text#buyButtonShelf": {
+    "props": {
+      "text": "Comprar",
+      "blockClass": "btnBuy"
+    }
+  },
+  "cash-discount-summary#fourPercent": {
+    "props": {
+      "percentageNumber": 4,
+      "minimumPrice": 1500,
+      "discountDescription": "depósito",
+      "blockClass": "discountSummary"
+    }
+  },
+  // Shelf 02
+  "flex-layout.row#shelf-special": {
+    "children": [
+      // "flex-layout.col#shelf-special01",
+      "flex-layout.col#shelf-special02"
+    ],
+    "props": {
+      "blockClass": "content-bannerSpecial"
+    }
+  },
+  // "flex-layout.col#shelf-special01":{
+  //   "children":[
+  //     "image#banner-shelfSpecial01"
+  //   ],
+  //   "props":{
+  //     "width":"30%",
+  //     "blockClass":"content-bannerSpecial"
+  //   }
+  // },
+  // "image#banner-shelfSpecial01":{
+  //   "props":{
+  //     "src": "https://brasiltatica.vteximg.com.br/assets/vtex.file-manager-graphql/images/shelf-special01___b1b093a7f2a5290886e42e34e2e0b63a.jpg",
+  //     "maxHeight": "400px",
+  //     "blockClass":"img-bannerSpecial"
+  //   }    
+  // },
+  "flex-layout.col#shelf-special02": {
+    "children": [
+      "shelf#special"
+    ]
+  },
+  "shelf#special": {
+    "blocks": [
+      "product-summary.shelf#special"
+    ],
+    "props": {
+      "blockClass": "shelf-special",
+      "orderBy": "OrderByTopSaleDESC",
+      "paginationDotsVisibility": "desktopOnly",
+      "showListPrice": true,
+      "showLabels": true,
+      "showSavings": true,
+      "productList": {
+        "maxItems": 4,
+        "itemsPerPage": 4,
+        "minItemsPerPage": 4,
+        "scroll": "BY_PAGE",
+        "arrows": true,
+        "dots": false,
+        "titleText": ""
+      }
+    }
+  },
+  "product-summary.shelf#special": {
+    "children": [
+      "product-summary-image#special",
+      "product-summary-name#special",
+      "product-summary-price#special",
+      // "product-summary-buy-button#special"
+      "rich-text#buyButtonShelf"
+    ],
+    "props": {
+      "blockClass": "shelf-special-li"
+    }
+  },
+  "product-summary-image#special": {
+    "props": {
+      "blockClass": "image-special"
+    }
+  },
+  "product-summary-name#special": {
+    "props": {
+      "blockClass": "name-special"
+    }
+  },
+  "product-summary-price#special": {
+    "props": {
+      "blockClass": "price-special",
+      "showInstallments": true,
+      "showDiscountValue": true
+    }
+  },
+  "product-summary-buy-button#special": {
+    "props": {
+      "blockClass": "buyButton-special"
+    }
+  },
+  // Banner Middle
+  "flex-layout.row#bannerMiddle-row": {
+    "children": [
+      "info-card#infoShipping"
+    ],
+    "props": {
+      "blockClass": "content-infoCard-middle"
+    }
+  },
+  "info-card#infoShipping": {
+    "props": {
+      "id": "info-card-shipping",
+      "isFullModeStyle": true,
+      "textPosition": "left",
+      "imageUrl": "https://brasiltatica.vteximg.com.br/assets/vtex.file-manager-graphql/images/banner-footer___6650c84b62dc6b2b49f754982e35a770.jpg",
+      "headline": "Entregamos em todo o Brasil a mais de 17 anos atuando no mercado de armas, com responsabilidade, profissionalismo e respeito pelos nossos clientes.",
+      "callToActionText": "Como comprar seu armamento",
+      "callToActionUrl": "/como-comprar",
+      "blockClass": "info-card-shipping",
+      "textAlignment": "center"
+    }
+  },
+  "flex-layout.row#featured1-grid": {
+    "children": [
+      "info-card#featured01"
+    ]
+  },
+  "flex-layout.row#featured2-grid": {
+    "children": [
+      "info-card#featured02"
+    ]
+  },
+  "flex-layout.row#featured3-grid": {
+    "children": [
+      "info-card#featured03"
+    ]
+  },
+  "flex-layout.row#featured4-grid": {
+    "children": [
+      "info-card#featured04"
+    ]
+  },
+  "info-card#featured01": {
+    "props": {
+      "id": "info-card-featured1",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://brasiltatica.vteximg.com.br/assets/vtex.file-manager-graphql/images/Shotgun_for_Hunting_in_Jungle_HD_Desktop_Images___95a66d3c305058ac3c782fd97ddbc275.jpg",
+      "headline": "ARMAS DE CAÇA",
+      "subhead": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+      "callToActionText": "ver armas",
+      "callToActionUrl": "/armas-de-fogo",
+      "blockClass": "info-card-featured",
+      "textAlignment": "right"
+    }
+  },
+  "info-card#featured02": {
+    "props": {
+      "id": "info-card-featured4",
+      "isFullModeStyle": false,
+      "textPosition": "right",
+      "imageUrl": "https://brasiltatica.vteximg.com.br/assets/vtex.file-manager-graphql/images/457894ac923a6eb49af29eae45f637ca___3605abda5da32b13245446e67dc56358.jpg",
+      "headline": "KIT DE LIMPEZA",
+      "subhead": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+      "callToActionText": "ver kits",
+      "callToActionUrl": "/armas-de-fogo",
+      "blockClass": "info-card-featured",
+      "textAlignment": "left"
+    }
+  },
+  "info-card#featured03": {
+    "props": {
+      "id": "info-card-featured3",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://brasiltatica.vteximg.com.br/assets/vtex.file-manager-graphql/images/Weapon-ammunition-bullets_3840x2160___872dcb3abd7ae110f636bdd5278f9a12.jpg",
+      "headline": "CAIXAS PARA MUNIÇÃO",
+      "subhead": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+      "callToActionText": "ver caixas",
+      "callToActionUrl": "/armas-de-fogo",
+      "blockClass": "info-card-featured",
+      "textAlignment": "right"
+    }
+  },
+  "info-card#featured04": {
+    "props": {
+      "id": "info-card-featured4",
+      "isFullModeStyle": false,
+      "textPosition": "right",
+      "imageUrl": "https://brasiltatica.vteximg.com.br/assets/vtex.file-manager-graphql/images/Shot_Gun_Weapon_Closeup_HD_Desktop_Wallpaper_Background___29b68ab6e44303d765a5b737bb537a63.jpg",
+      "headline": "ESPINGARDAS",
+      "subhead": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+      "callToActionText": "ver espingardas",
+      "callToActionUrl": "/armas-de-fogo",
+      "blockClass": "info-card-featured",
+      "textAlignment": "left"
+    }
+  },
+  // Shelf tabs
+  "tab-layout#shelf-tabs": {
+    "children": [
+      "tab-list#shelfTable",
+      "tab-content#shelfTable"
+    ],
+    "props": {
+      "blockClass": "shelf-table"
+    }
+  },
+  "tab-list#shelfTable": {
+    "children": [
+      "tab-list.item#shelfTable-01",
+      "tab-list.item#shelfTable-02"
+    ]
+  },
+  "tab-list.item#shelfTable-01": {
+    "props": {
+      "tabId": "shelfTable-01",
+      "label": "Coldres",
+      "defaultActiveTab": true,
+      "blockClass": "shelfTable-button"
+    }
+  },
+  "tab-list.item#shelfTable-02": {
+    "props": {
+      "tabId": "shelfTable-02",
+      "label": "Acessórios",
+      "blockClass": "shelfTable-button"
+    }
+  },
+  "tab-content#shelfTable": {
+    "children": [
+      "tab-content.item#content-shelfTable-01",
+      "tab-content.item#content-shelfTable-02"
+    ]
+  },
+  "tab-content.item#content-shelfTable-01": {
+    "children": [
+      "shelf#shelfTables-01"
+    ],
+    "props": {
+      "tabId": "shelfTable-01"
+    }
+  },
+  "tab-content.item#content-shelfTable-02": {
+    "children": [
+      "shelf#shelfTables-02"
+    ],
+    "props": {
+      "tabId": "shelfTable-02"
+    }
+  },
+  "shelf#shelfTables-01": {
+    "blocks": [
+      "product-summary.shelf#table"
+    ],
+    "props": {
+      "blockClass": "shelf-table",
+      "orderBy": "OrderByTopSaleDESC",
+      "paginationDotsVisibility": "hidden",
+      "showListPrice": true,
+      "showLabels": true,
+      "showSavings": true,
+      "showTitle": "false",
+      "productList": {
+        "maxItems": 16,
+        "itemsPerPage": 4,
+        "minItemsPerPage": 1.5,
+        "scroll": "BY_PAGE",
+        "arrows": true,
+        "titleText": ""
+      }
+    }
+  },
+  "shelf#shelfTables-02": {
+    "blocks": [
+      "product-summary.shelf#table"
+    ],
+    "props": {
+      "blockClass": "shelf-table",
+      "orderBy": "OrderByTopSaleDESC",
+      "paginationDotsVisibility": "hidden",
+      "showListPrice": true,
+      "showLabels": true,
+      "showSavings": true,
+      "showTitle": "false",
+      "productList": {
+        "maxItems": 16,
+        "itemsPerPage": 4,
+        "minItemsPerPage": 1.5,
+        "scroll": "BY_PAGE",
+        "arrows": true,
+        "titleText": ""
+      }
+    }
+  },
+  "product-summary.shelf#table": {
+    "children": [
+      "product-summary-image",
+      "product-summary-name",
+      "product-summary-price",
+      // "product-summary-buy-button"
+      "rich-text#buyButtonShelf"
+    ]
+  },
+  "product-summary-price": {
+    "props": {
+      "showInstallments": true,
+      "showDiscountValue": true
+    }
+  },
+  // Banners segmentados
+  "flex-layout.row#banners-segmented": {
+    "children": [
+      "flex-layout.col#banners-segmented-01",
+      "flex-layout.col#banners-segmented-02",
+      "flex-layout.col#banners-segmented-03",
+      "flex-layout.col#banners-segmented-04"
+    ],
+    "props": {
+      "blockClass": "content-bannersSegmented"
+    }
+  },
+  "flex-layout.col#banners-segmented-01": {
+    "children": [
+      "image#segmented01"
+    ],
+    "props": {
+      "blockClass": "banner-segment-content"
+    }
+  },
+  "image#segmented01": {
+    "props": {
+      "src": "https://brasiltatica.vteximg.com.br/assets/vtex.file-manager-graphql/images/segmented001___cbb554ac56daa350165451842e9f71fc.jpg",
+      "link": "/",
+      "blockClass": "banner-segment-img"
+    }
+  },
+  "flex-layout.col#banners-segmented-02": {
+    "children": [
+      "image#segmented02"
+    ],
+    "props": {
+      "blockClass": "banner-segment-content"
+    }
+  },
+  "image#segmented02": {
+    "props": {
+      "src": "https://brasiltatica.vteximg.com.br/assets/vtex.file-manager-graphql/images/segmented002___fc7b2b213ab6fc1447d99b112625fc4f.jpg",
+      "link": "/",
+      "blockClass": "banner-segment-img"
+    }
+  },
+  "flex-layout.col#banners-segmented-03": {
+    "children": [
+      "image#segmented03"
+    ],
+    "props": {
+      "blockClass": "banner-segment-content"
+    }
+  },
+  "image#segmented03": {
+    "props": {
+      "src": "https://brasiltatica.vteximg.com.br/assets/vtex.file-manager-graphql/images/segmented003___6893d0456e66fa9c6245c14def1fc6dc.jpg",
+      "link": "/",
+      "blockClass": "banner-segment-img"
+    }
+  },
+  "flex-layout.col#banners-segmented-04": {
+    "children": [
+      "image#segmented04"
+    ],
+    "props": {
+      "blockClass": "banner-segment-content"
+    }
+  },
+  "image#segmented04": {
+    "props": {
+      "src": "https://brasiltatica.vteximg.com.br/assets/vtex.file-manager-graphql/images/segmented003___6893d0456e66fa9c6245c14def1fc6dc.jpg",
+      "link": "/",
+      "blockClass": "banner-segment-img"
+    }
+  },
+  // Newsletter
+  "newsletter": {
+    "props": {
+      "label": "Cadastre-se em nossa newsletter e receba notícias sobre a Brasil Tática e o mercado de armas",
+      "submit": "Cadastrar",
+      "blockClass": "content-newsletter"
+    }
+  }
+}

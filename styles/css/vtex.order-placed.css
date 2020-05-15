@@ -1,0 +1,40 @@
+.orderPlacedWrapper{
+    padding: 0px;
+}
+.confirmationIconWrapper{
+    padding-top: 30px;
+    background: #83af00;
+}
+.confirmationTitle{
+    color: #fff;
+    background: #83af00;
+    margin: 0px;
+    padding: 10px 0px 30px;
+}
+.confirmationMessage{
+    color: #676767;
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+.orderOptionsWrapper :global(.vtex-button):first-child{
+    color: #fff;
+    background: #0e2542;
+    border: 0px;
+    border-radius: 0px;
+    font-size: 13px;
+}
+.orderNumber{
+    color: #ef852d;
+}
+.totalListItemLabel , .totalListItemValue {
+    color: #676767;
+} 
+.confirmationIconWrapper svg{
+    color: #fff;
+}
+
+.totalListItem:last-child .totalListItemLabel , .totalListItem:last-child .totalListItemValue{
+    color: #1f2942 !important;
+}
+
+

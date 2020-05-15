@@ -1,0 +1,37 @@
+.container--shelf-featured .title{font-weight: bold;color:#000;font-size: 1.5em;padding:1rem 0;}
+.slide--shelf-featured{padding:1em 0;border:1px dashed #f1f1f1;}
+.slide--shelf-featured .nameContainer,
+.slide--shelf-table .nameContainer{font-weight: bold;}
+/* Tabs shelf */
+.title--shelf-table,
+.title--shelf-special{display:none;}
+
+/* Special */
+.sliderContainer--shelf-special{padding: 0em 1em;}
+.container--shelf-featured,
+.container--shelf-special{padding-bottom:0;}
+.arrowLeft--shelf-special{
+    position: absolute;
+    bottom: -2.6em;
+    left: 44%;
+    top: inherit;    
+}
+.arrowRight--shelf-special{
+    position: absolute;
+    bottom: -2.6em;
+    right: 44%;
+    top: inherit;    
+}
+
+@media only screen and (min-width: 40em){
+    .container--shelf-featured .title{
+        font-size:2.25em;
+        padding: 0 0 1.5rem;
+    }
+}
+
+@media only screen and (min-width: 80em){
+    .container--shelf-featured{
+        padding-bottom: 2em;
+    }
+}

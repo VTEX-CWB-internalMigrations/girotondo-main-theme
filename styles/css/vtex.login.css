@@ -1,0 +1,34 @@
+.buttonLink :global(.vtex-button){
+    max-width: 30px;
+}
+@media only screen and (min-width: 1025px){
+    .label{
+        color: #fff;
+    }
+    .profileIcon--login-desktop{
+        color: #fff;
+    }
+}
+
+@media only screen and (min-width: 1000px){
+    /*
+    .label:after{
+        content:"▾";
+        display:inline-block;
+        padding: 0 .5rem;
+        width:20px;
+        height:10px;
+        color: #ff6600;
+    }
+    */
+
+    .box{
+        right: -360px !important; 
+    }
+    .contentContainer{
+        min-width: 100%;
+    }
+    .arrowUp{
+        left: 25px; 
+    }
+}

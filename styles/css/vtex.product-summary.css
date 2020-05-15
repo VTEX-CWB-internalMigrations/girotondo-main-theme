@@ -1,0 +1,56 @@
+.brandName--shelf-nameProduct-featured{
+    font-weight: bold;
+    margin: 0 1em;
+    text-transform: initial;
+    color: #000;
+    display: block;
+    font-size: 0.9em;
+    max-height: 35px;
+    height: 35px;
+}
+.nameContainer{min-height:80px;}
+.clearLink .buyButton{margin:0 1em;}
+.clearLink--shelf-footer-li:hover .image{width:auto;height:auto}
+.containerNormal{background:#fff;}
+.priceContainer{padding-bottom:0;}
+
+.priceContainer{
+    text-align: left;
+    padding-left: 35px;
+}
+
+.sellingPrice{
+    padding: 0px;
+}
+
+.productPriceClass{
+    width: 100%;
+}
+
+.imageContainer{
+    min-height: 290px;
+    display: flex;
+    align-items: center;
+}
+
+@media only screen and (min-width: 40em){
+    .brandName--shelf-nameProduct-featured{
+        display: block;
+        font-size:1em;
+        max-height: auto;
+        height: auto;
+    }    
+}
+
+@media only screen and (min-width: 80em){
+    .buyButtonContainer{opacity:0;transition: .2s linear;}
+    .clearLink:hover *{opacity:1;}
+    .containerNormal{
+        max-width:400px !important;
+        transition: .3s linear;    
+    }
+    
+    .containerNormal:hover{
+        box-shadow:0 0 10px #fbe3d3;    
+    }    
+}

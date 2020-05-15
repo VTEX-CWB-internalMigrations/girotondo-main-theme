@@ -1,0 +1,72 @@
+.flexRow--banner-featured-content,
+.flexRow--content-infoCard-middle{display:none;}
+
+.flexRow--content-tips{
+    background: url(https://brasiltatica.vteximg.com.br/assets/vtex.file-manager-graphql/images/bg-tips___6ec53fc82fcc553d1ddd2881ea47fc19.jpg) repeat scroll left center transparent;
+    margin: 2em 0;
+}
+.flexCol--col-tips{
+    position: relative;
+    align-items: center;
+    border-left: 1px dashed #3468ab;
+}
+
+.flexRow--bg-shelfSpecial{
+    background: url(https://brasiltatica.vteximg.com.br/assets/vtex.file-manager-graphql/images/bg-bullet___c9a8000167878816029e5c6942d30f6d.jpg) repeat center scroll transparent;
+}
+
+.flexRow--footer-row-2{margin-top:4em;}
+.flexColChild--content-footer{height:auto !important;}
+.flexRow--productDetail-description{background:#fff;padding:1em 0;}
+.flexRow--content-bannerSpecial{display:none;}
+.flexRow--deals{background:#979899;padding:.5em 0;}
+.flexRow--content-bannersSegmented{margin:2em 0 0;}
+.flexRow--content-bannersSegmented{display:none;}
+
+
+.flexRow--background-howToBuy{
+    background: urL(https://brasiltatica.vteximg.com.br/assets/vtex.file-manager-graphql/images/how-buy___cbdc6eea35d647c34fc68493ec26e848.jpg) no-repeat center scroll transparent;
+    padding:1.5em;
+    background-position: left bottom;
+}
+
+.flexRow--flex-layout-register{
+    padding:4em 0;
+}
+.flexColChild--content-register{
+    text-align: center;
+    padding: 0 2em;
+}
+.flexRow--content-howTo-shipping{
+    background: #f4f4f4;
+    padding:1.5em 0;
+    margin:1em 0;
+}
+.flexRowContent--confirmationButtons :global(.vtex-button){
+    color: #fff;
+    background: #ef852d;
+    border: 0px;
+    border-radius: 0px;
+}
+
+@media only screen and (min-width: 40em){
+    .flexRow--banner-featured-content{display:block;}
+    .flexColChild--banner-featured-01{text-align: right;margin-top:1em;z-index:2}
+    .flexColChild--banner-featured-02{text-align: left;margin-top:1em;z-index: 2;}
+    .flexRow--content-infoCard-middle{display:block;margin:4em 0 1em;}
+    .flexRow--row-buyButton{width:60%;}
+    .flexRow--row-sealSecurity{
+        margin-top: -4.5em;
+        width:100%;
+        text-align: right;
+        justify-content: right;
+    }
+}
+
+@media only screen and (min-width: 80em){
+.flexColChild--banner-featured-01{text-align: right;margin-top:-80px;z-index:2}
+.flexColChild--banner-featured-02{text-align: left;margin-top:-80px;z-index: 2;}
+.flexRow--content-bannerSpecial{display:block;}
+.flexRow--content-bannersSegmented{display:block;}
+.flexRow--content-bannersSegmented{margin:1em 0 5em;}
+}

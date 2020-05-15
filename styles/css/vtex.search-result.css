@@ -1,0 +1,58 @@
+.totalProducts--layout{
+    text-align: left;
+    padding: 0 4rem;
+    font-size: .8em;
+    text-transform: lowercase;    
+}
+
+.gallery{
+    padding-left:2em;
+}
+
+.galleryTitle--layout{
+    text-align: center;
+    margin: 0 0 .5em;
+    background: #f4f4f4;
+    font-size: 2em;
+    text-transform: uppercase;
+    padding: .2em 0;
+}
+
+.filters--layout{
+    width: 200px    
+}
+
+.buttonShowMore{
+    margin: 1em 0 0;
+}
+
+.filter__container--title .t-heading{text-align:center;margin:0;}
+.categoryItemChildren{color:#999;}
+
+@media only screen and (min-width: 40em){
+    .galleryItem{border-left: 1px dashed #f3f3f3;border-bottom: 1px dashed #f3f3f3;}
+    .orderByButton{
+        padding: .3em;
+        width: auto;
+        justify-content: right;
+        text-align: right;
+        float: right;
+        border: 1px solid #ecebeb;        
+    }
+    .filterPopupArrowIcon{
+        padding-right: .5rem;
+    }
+    .filterTitle{
+        font-size: 1rem;
+        color: #333;
+        text-align: center;
+        justify-content: center;
+        background: #f4f4f4;
+        padding: .3rem 0;    
+    }
+    
+    .filterItem{
+        padding-left:1em;
+    }
+    
+}
