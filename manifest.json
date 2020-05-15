@@ -1,7 +1,7 @@
 {
   "vendor": "girotondo",
   "name": "girotondo-main-theme",
-  "version": "0.0.00",
+  "version": "0.0.1",
   "builders": {
     "styles": "1.x",
     "store": "0.x",
