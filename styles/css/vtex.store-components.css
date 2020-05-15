@@ -172,6 +172,38 @@
   display: none
 }
 
+.specificationsTabsContainer :global(.vtex-tab__button){
+  color: #000;
+}
+
+.specificationsTabsContainer :global(.vtex-tab__button--active){
+  border-bottom: 2px solid #fff31d;
+}
+
+.specificationsTitle{
+  display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    padding: 10px;
+    background: #09609f;
+    color: #fff;
+    border-radius: 65px;
+}
+
+.specificationsTabsContainer{
+  max-width: 1200px;
+  margin: 0px auto;
+}
+.specificationsTab{
+  background: #f6f6f6;
+  padding: 30px 50px;
+}
+
+.specificationsTab{
+  color: #606060;
+}
+
  @media only screen and (min-width: 40em){
   .label--content-newsletter{
     font-size: 1.75em;

@@ -2,7 +2,6 @@
   "store.product": {
     "children": [
       "flex-layout.row#product-breadcrumb",
-      "flex-layout.row#alert-product",
       "flex-layout.row#product-main",
       // "flex-layout.row#banner-specification",
       "flex-layout.row#product-description",
@@ -18,17 +17,6 @@
     "children": [
       "breadcrumb"
     ]
-  },
-  "flex-layout.row#alert-product": {
-    "children": [
-      "rich-text#alert-product"
-    ]
-  },
-  "rich-text#alert-product": {
-    "props": {
-      "text": "# LEIA COM ATENÇÃO ANTES DE FAZER PEDIDO DE ARMA DE FOGO! Em conformidade com o estatuto do desarmamento (lei 10826/03). O interessado devereá obter **AUTORIZAÇÃO PARA AQUISIÇÃO DE ARMA DE FOGO.** A AUTORIZAÇÃO PARA AQUISIÇÃO DE ARMA DE FOGO deverá ser enviada para a loja juntamente com cópia do RH, CPF e comprovante de residência. Diante do recebimento, enviaremos a Nota Fiscal com a numeração e as características da arma para efetuar o registro. Deverá ser enviada uma fotocópia autenticada do registro, para a emissão da guia de tráfego e envio da arma.<br/><br/> A arma de fogo só poderá ser enviada após a emissão do registro e guia de tráfego.",
-      "blockClass": "alert-product"
-    }
   },
   "flex-layout.row#product-main": {
     "props": {
@@ -94,7 +82,6 @@
       "product-assembly-options",
       "flex-layout.row#buy-button",
       "flex-layout.row#seal-security",
-      "flex-layout.row#linkRegulation",
       "availability-subscriber",
       "shipping-simulator"
       // "share#default"
@@ -155,45 +142,7 @@
       "blockClass": "row-sealSecurity"
     }
   },
-  "flex-layout.row#linkRegulation": {
-    "children": [
-      "flex-layout.col#linkRegulation",
-      "flex-layout.col#linkAirport"
-    ],
-    "props": {
-      "blockClass": "row-linkRegulation"
-    }
-  },
-  "flex-layout.col#linkRegulation": {
-    "children": [
-      "rich-text#link-regulation"
-    ],
-    "props": {
-      "width": "50%",
-      "blockClass": "col-linkProduct"
-    }
-  },
-  "flex-layout.col#linkAirport": {
-    "children": [
-      "rich-text#link-airport"
-    ],
-    "props": {
-      "width": "50%",
-      "blockClass": "col-linkProduct"
-    }
-  },
-  "rich-text#link-regulation": {
-    "props": {
-      "text": "[Regulamento para comprar arma de fogo](/regulamento)",
-      "blockClass": "link-regulationGun"
-    }
-  },
-  "rich-text#link-airport": {
-    "props": {
-      "text": "[Tabela de aeroportos do Brasil](/frete-aeroporto)",
-      "blockClass": "link-regulationPlane"
-    }
-  },
+
   "rich-text#securitySell": {
     "props": {
       "text": "Compra **Segura**",
@@ -223,9 +172,7 @@
   },
   "flex-layout.col#descriptions":{
     "children":[
-      "product-description",
       "product-specifications"
-
     ],
     "props":{
     }
@@ -292,7 +239,8 @@
   },
   "product-specifications": {
     "props": {
-      "collapsible": "never"
+      "collapsible": "never",
+      "showSpecificationsTab": true
     }
   }
 }
