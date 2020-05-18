@@ -25,7 +25,8 @@
       "marginTop": 4,
       "marginBottom": 7,
       "paddingTop": 7,
-      "paddingBottom": 7
+      "paddingBottom": 7,
+      "blockClass": "mainInfos"
     },
     "children": [
       "flex-layout.col#stack",
@@ -51,8 +52,9 @@
       "stack-layout"
     ],
     "props": {
-      "width": "60%",
-      "rowGap": 0
+      "width": "50%",
+      "rowGap": 0,
+      "blockClass": "imageFlex"
     }
   },
   "flex-layout.row#product-image": {
@@ -68,7 +70,8 @@
   "flex-layout.col#right-col": {
     "props": {
       "preventVerticalStretch": true,
-      "rowGap": 0
+      "rowGap": 0,
+      "blockClass": "productInfo"
     },
     "children": [
       "product-name#productDetail-name",
@@ -81,7 +84,6 @@
       "sku-selector",
       "product-assembly-options",
       "flex-layout.row#buy-button",
-      "flex-layout.row#seal-security",
       "availability-subscriber",
       "shipping-simulator"
       // "share#default"
@@ -134,21 +136,7 @@
       "buyButtonText": "COMPRAR"
     }
   },
-  "flex-layout.row#seal-security": {
-    "children": [
-      "rich-text#securitySell"
-    ],
-    "props": {
-      "blockClass": "row-sealSecurity"
-    }
-  },
 
-  "rich-text#securitySell": {
-    "props": {
-      "text": "Compra **Segura**",
-      "blockClass": "text-securitySell"
-    }
-  },
   "flex-layout.row#banner-specification": {
     "children": [
       "image#banner-specification"

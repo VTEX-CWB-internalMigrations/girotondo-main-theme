@@ -61,6 +61,19 @@
     margin-top: 20px;
 }
 
+.flexRowContent--row-buyButton :global(.vtex-button){
+    border-radius: 100px;
+    border: none;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    font-weight: 600;
+}
+
+.flexRowContent--mainInfos .stretchChildrenWidth{
+    max-width: 600px;
+    margin: 0px auto;
+}
+
 @media only screen and (min-width: 40em){
     .flexRow--banner-featured-content{display:block;}
     .flexColChild--banner-featured-01{text-align: right;margin-top:1em;z-index:2}

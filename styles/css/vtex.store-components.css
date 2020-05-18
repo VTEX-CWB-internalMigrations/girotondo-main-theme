@@ -217,6 +217,30 @@
   border-radius: 100px;
 }
 
+.specificationsTab{
+  margin-bottom: 50px;
+}
+
+.productBrand--productDetails-name{
+  font-size: 25px;
+  color: #595959;
+}
+
+.productBrand--productDetails-name::after{
+  content: "";
+  display: block;
+  height: 3px;
+  background: #09609f;
+  width: 200px;
+  border-radius: 100px;
+  margin-top: 10px;
+}
+
+.sellingPriceValue{
+  font-weight: 600;
+  font-size: 22px;
+}
+
 @media only screen and (min-width: 40em){
   .label--content-newsletter{
     font-size: 1.75em;
