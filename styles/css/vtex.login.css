@@ -1,12 +1,17 @@
 .buttonLink :global(.vtex-button){
     max-width: 30px;
 }
+
+.label{
+    color: #09609f;
+}
+
 @media only screen and (min-width: 1025px){
     .label{
-        color: #fff;
+        color: #09609f;
     }
     .profileIcon--login-desktop{
-        color: #fff;
+        color: #09609f;
     }
 }
 

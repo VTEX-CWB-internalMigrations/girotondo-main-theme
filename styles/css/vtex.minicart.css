@@ -1,4 +1,11 @@
 .label{display:none;}
+
+.container :global(.vtex-button){
+    font-size: 0px;
+    background: #f8cb16;
+    margin: 0px 25px;
+    color: #fff;
+}
 /*
 .container{
     background:url(https://brasiltatica.vteximg.com.br/assets/vtex.file-manager-graphql/images/shoppingCart-icon___1341df25d75b8b6de682920edc4aad93.png) no-repeat center scroll transparent;

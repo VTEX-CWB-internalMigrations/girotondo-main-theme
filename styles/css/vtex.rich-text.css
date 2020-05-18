@@ -2,11 +2,10 @@
   line-height:1;
   font-size: .8em;
 }
-.container--contact-header .paragraph{color:#ffffff;}
-.link--contact-header,
+.container--contact-header .paragraph{color:#09609f;}
 .link--content-intitutional{color:#ffffff !important;}
 .container--contact-header .link, .container--contact-header .link--text-securitySell{
-  color:#ffffff;
+  color:#09609f;
   text-decoration: none;
 }
 
@@ -38,7 +37,7 @@
 .container--link-first-intitutional .link--footer-title,
 .container--link-first-intitutional .link--link-first-intitutional{
   color:#fff;
-  border-bottom: 1px solid #f60;
+  border-bottom: 1px solid #fff31d;
   width: auto !important;
   text-decoration: none;
   padding-bottom: .5em;
@@ -47,7 +46,7 @@
 .container--link-intitutional .link--text-copyright,
 .container--link-intitutional .link--footer-title,
 .container--link-intitutional .paragraph--link-intitutional .link--link-intitutional{
-  color:#999;
+  color:#fff;
   text-decoration: none;
 }
 
@@ -249,14 +248,42 @@
   width: 100%;
 }
 
-.container--shelfTitle .paragraph{
-  color: #000;
-  text-align: center;
-  width: 100%;
-  display: block;
-  font-weight: 700;
-  font-size: 2.25em;
-  padding: 1.5rem 0 0;
+
+.container--text-copyright{
+  background: #f8cb16;
+  margin-bottom: 0px;
+}
+
+.paragraph--footer-title{
+  color: #f8cb16;
+}
+
+.paragraph--text-copyright{
+  border: none;
+  color: #fff;
+  font-weight: 600;
+  padding-bottom: 10px;
+}
+
+.paragraph--shelfTitle{
+    color: #8d8d8d;
+    font-weight: 100;
+    font-size: 30px;
+    text-align: left;
+    padding: 0px 30px;
+    position: relative;
+}
+
+.paragraph--shelfTitle::after{
+    border-radius: 100px;
+    content: "";
+    width: 30%;
+    height: 3px;
+    background: #f8cb16;
+    display: block;
+    position: absolute;
+    bottom: 0px;
+    z-index: 99;
 }
 
 @media only screen and (min-width: 40em){

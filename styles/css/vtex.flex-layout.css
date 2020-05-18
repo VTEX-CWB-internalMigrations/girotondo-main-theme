@@ -19,7 +19,7 @@
 .flexColChild--content-footer{height:auto !important;}
 .flexRow--productDetail-description{background:#fff;padding:1em 0;}
 .flexRow--content-bannerSpecial{display:none;}
-.flexRow--deals{background:#979899;padding:.5em 0;}
+.flexRow--deals{background:#f8cb16;padding:.5em 0;}
 .flexRow--content-bannersSegmented{margin:2em 0 0;}
 .flexRow--content-bannersSegmented{display:none;}
 
@@ -47,6 +47,10 @@
     background: #ef852d;
     border: 0px;
     border-radius: 0px;
+}
+
+.flexRow--footer-first-row{
+    background: #09609f;
 }
 
 @media only screen and (min-width: 40em){

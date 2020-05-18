@@ -177,7 +177,7 @@
 }
 
 .specificationsTabsContainer :global(.vtex-tab__button--active){
-  border-bottom: 2px solid #fff31d;
+  border-bottom: 2px solid #f8cb16;
 }
 
 .specificationsTitle{
@@ -204,7 +204,7 @@
   color: #606060;
 }
 
- @media only screen and (min-width: 40em){
+@media only screen and (min-width: 40em){
   .label--content-newsletter{
     font-size: 1.75em;
     font-style: normal;

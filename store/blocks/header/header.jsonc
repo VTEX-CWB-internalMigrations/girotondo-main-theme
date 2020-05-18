@@ -22,8 +22,7 @@
     "children":[
       "login",
       "header-spacer",
-      "rich-text#contact-header",
-      "rich-text#btn-howToBuy"
+      "rich-text#contact-header"
     ],
     "props":{
       "blockClass":"header-lineOne"
@@ -45,12 +44,6 @@
       "blockClass":"login-desktop"
     }
   },  
-  "rich-text#btn-howToBuy":{
-    "props":{
-      "text":"Veja aqui como comprar sua arma de fogo",
-      "blockClass":"btn-howToBuy"
-    }
-  },
   "header-row#2-desktop":{
     "children":[
       "logo#desktop",

@@ -20,7 +20,10 @@
       "rich-text#page03",
       "rich-text#page04",
       "rich-text#page05"
-    ]
+    ],
+    "props":{
+      "blockClass": "footer-first-row"
+    }
   },
   /* Intitutional */
   "rich-text#page01":{

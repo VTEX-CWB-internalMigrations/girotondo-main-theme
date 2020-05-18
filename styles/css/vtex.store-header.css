@@ -17,10 +17,18 @@
 .headerRowContentContainer--category-menu-background,
 .headerRowContainer--category-menu-background,
 .headerRowBackground--category-menu-background {
-    background-color: #09609f;;
+    background-color: #09609f;
+    border: none;
 }
 
 .headerRowContentContainer--header-lineOne{
-    background: #09609f;;
+    background: #f4f4f4;
     padding: 0px 35px;
+    height: 30px;
+    border-bottom: 1px solid #09609f;
 }
+
+.headerRowContentContainer--category-menu-background{
+    box-shadow: 1px 3px 13px #0000006b;
+}
+
