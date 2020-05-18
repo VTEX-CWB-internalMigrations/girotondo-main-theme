@@ -204,6 +204,19 @@
   color: #606060;
 }
 
+.container{
+  padding: 0px;
+}
+
+.infoCardContainer{
+  padding: 0px;
+}
+
+.infoCardCallActionContainer :global(.vtex-button){
+  border: none;
+  border-radius: 100px;
+}
+
 @media only screen and (min-width: 40em){
   .label--content-newsletter{
     font-size: 1.75em;

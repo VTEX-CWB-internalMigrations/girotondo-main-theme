@@ -88,22 +88,34 @@
   "flex-layout.row#shelf": {
     "children": [
       "list-context.product-list#home-1"
-    ]
+    ],
+    "props":{
+      "blockClass": "shelfBlock"
+    }
   },
   "flex-layout.row#shelf2": {
     "children": [
       "list-context.product-list#home-2"
-    ]
+    ],
+    "props":{
+      "blockClass": "shelfBlock"
+    }
   },
   "flex-layout.row#shelf3": {
     "children": [
       "list-context.product-list#home-3-true"
-    ]
+    ],
+    "props":{
+      "blockClass": "shelfBlock"
+    }
   },
   "flex-layout.row#shelf4": {
     "children": [
       "list-context.product-list#home-4-true"
-    ]
+    ],
+    "props":{
+      "blockClass": "shelfBlock"
+    }
   },
   // SHELF TITLE
   "rich-text#shelfTitle": {
@@ -139,7 +151,6 @@
       "slider-layout#demo-products"
     ],
     "props": {
-      "collection": "138",
       "blockClass": "shelf-featured",
       "titleText": "DESTAQUES",
       "installmentCriteria": "MAX_WITH_INTEREST"
@@ -153,7 +164,6 @@
       "slider-layout#demo-products"
     ],
     "props": {
-      "collection": "143",
       "blockClass": "shelf-featured",
       "titleText": "DESTAQUES",
       "installmentCriteria": "MAX_WITH_INTEREST"
@@ -167,7 +177,6 @@
       "slider-layout#demo-products"
     ],
     "props": {
-      "collection": "145",
       "blockClass": "shelf-featured",
       "titleText": "DESTAQUES",
       "installmentCriteria": "MAX_WITH_INTEREST"
@@ -181,7 +190,6 @@
       "slider-layout#demo-products"
     ],
     "props": {
-      "collection": "144",
       "blockClass": "shelf-featured",
       "orderBy": "OrderByTopSaleDESC",
       "productList": {
