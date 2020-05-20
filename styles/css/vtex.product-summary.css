@@ -33,6 +33,11 @@
     align-items: center;
 }
 
+.buyButton :global(.vtex-button){
+    border-radius: 100px;
+    border: none;
+}
+
 @media only screen and (min-width: 40em){
     .brandName--shelf-nameProduct-featured{
         display: block;
@@ -43,7 +48,6 @@
 }
 
 @media only screen and (min-width: 80em){
-    .buyButtonContainer{opacity:0;transition: .2s linear;}
     .clearLink:hover {opacity:1;}
     .containerNormal{
         max-width:400px !important;

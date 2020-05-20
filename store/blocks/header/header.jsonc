@@ -121,7 +121,8 @@
       "rich-text#contact-header"      
     ],
     "props":{
-      "inverted":true
+      "inverted":true,
+      "blockClass": "contact-mobile"
     }
   },
   "header-row#1-mobile": {

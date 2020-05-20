@@ -1,7 +1,10 @@
 .container--contact-header .paragraph{
-  line-height:1;
-  font-size: .8em;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 600;
+  color:#09609f;
 }
+
 .container--contact-header .paragraph{color:#09609f;}
 .link--content-intitutional{color:#ffffff !important;}
 .container--contact-header .link, .container--contact-header .link--text-securitySell{
@@ -285,13 +288,37 @@
     z-index: 99;
 }
 
+.container--institutionalTitle{
+  display: flex;
+  justify-content: center;
+}
+
+.paragraph--institutionalTitle{
+  font-size: 17px;
+  color: #000000;
+  font-weight: 700;
+}
+
+.paragraph--institutionalTitle::after{
+  content: "";
+  display: block;
+  height: 3px;
+  background: #f8cb16;
+  border-radius: 100px;
+}
+
 @media only screen and (min-width: 40em){
   .container--link-regulation{
     text-align: center;
     justify-content: center;
     margin-top: -1em;
     margin-bottom: 2em;    
-  }  
+  }
+  
+  .container--contact-header .paragraph{
+    line-height:1;
+    font-size: .8em;
+  }
 }
 
 .container--link-regulationGun , .container--link-regulationPlane{

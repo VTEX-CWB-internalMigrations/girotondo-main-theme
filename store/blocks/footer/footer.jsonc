@@ -176,6 +176,8 @@
   },
   "flex-layout.col#footer-1-mobile": {
     "children": [
+      "rich-text#institutionalTitleMobile",
+      "vtex.menu@2.x:menu#footer-mobile",
       "accepted-payment-methods",
       "social-networks",
       "rich-text#footer-mobile"
@@ -185,6 +187,13 @@
       "paddingTop": 4,
       "paddingBottom": 4,
       "rowGap": 4
+    }
+  },
+
+  "rich-text#institutionalTitleMobile":{
+    "props": {
+      "text": "Institucional",
+      "blockClass": "institutionalTitle"
     }
   },
   "rich-text#footer-mobile": {
