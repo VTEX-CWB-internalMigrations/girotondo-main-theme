@@ -29,6 +29,33 @@
 .filter__container--title .t-heading{text-align:center;margin:0;}
 .categoryItemChildren{color:#999;}
 
+.buttonShowMore--layout{
+    margin-bottom: 50px;
+}
+
+.buttonShowMore :global(.vtex-button){
+    border-radius: 100px;
+    padding: 10px 20px;
+    font-weight: 700;
+    border: none;
+    display: flex;
+    align-items: center;
+}
+
+.buttonShowMore :global(.vtex-button)::after{
+    content: ">";
+    transform: rotate(90deg);
+    height: 13px;
+    font-size: smaller;
+}
+
+.galleryTitle--layout{
+    padding: 10px;
+    color: #fff;
+    background: linear-gradient(90deg, rgba(248,203,22,1) 0%, rgba(248,203,22,1) 29%, rgb(255, 236, 160) 100%);
+    font-weight: 100;
+}
+
 @media only screen and (min-width: 40em){
     .galleryItem{border-left: 1px dashed #f3f3f3;border-bottom: 1px dashed #f3f3f3;}
     .orderByButton{
