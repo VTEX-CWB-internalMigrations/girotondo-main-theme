@@ -169,7 +169,7 @@
   "flex-layout.row#2-footer-mobile": {
     "children": ["flex-layout.col#footer-1-mobile"],
     "props": {
-      "blockClass": "payment-methods",
+      "blockClass": "footer-mobile",
       "paddingTop": 4,
       "paddingBottom": 4
     }
