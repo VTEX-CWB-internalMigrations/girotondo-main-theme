@@ -194,14 +194,31 @@
 .specificationsTabsContainer{
   max-width: 1200px;
   margin: 0px auto;
+  padding-top: 10px;
 }
 .specificationsTab{
   background: #f6f6f6;
-  padding: 30px 50px;
+  padding: 25px;
+  overflow: scroll;
 }
 
 .specificationsTab{
   color: #606060;
+}
+
+.specificationsTabsContainer :global(.vtex-tabs)::before{
+  content: "";
+  background-image: url(https://girotondo.vteximg.com.br/arquivos/scrollHere2.png);
+  height: 15px;
+  background-size: 110px;
+  text-align: center;
+  background-repeat: no-repeat;
+  display: flex;
+  background-position: center;
+  justify-content: center;
+  align-items: center;
+  background-color: #ececec;
+  padding: 10px;
 }
 
 .container{
@@ -262,6 +279,18 @@
   padding: 0 1em;
 }
 
+.specificationsTabsContainer :global(.vtex-tabs__nav){
+  overflow-x: scroll;
+}
+
+.specificationsTabsContainer{
+
+}
+
+.carouselGaleryCursor {
+  padding: 0px;
+}
+
 
 @media only screen and (min-width: 40em){
   .label--content-newsletter{
@@ -275,5 +304,8 @@
   .infoCardContainer--info-card-featured{
     padding: none;
     border-bottom: none;
+  }
+  .specificationsTabsContainer :global(.vtex-tabs)::before{
+    display: none;
   }
 }

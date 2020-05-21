@@ -140,11 +140,14 @@
   },
   "drawer": {
     "children": [
-      // "menu#drawer"
-      // "category-menu#mobile",
-      "vtex.menu@2.x:menu#footer-mobile"
-      // "vtex.menu@2.x:menu#menumobile"
+      "vtex.menu@2.x:menu#header-mobile"
     ]
+  },
+
+  "vtex.menu@2.x:menu#header-mobile":{
+    "props":{
+      "blockClass": "mobile-menu"
+    }
   },
 
   "logo#mobile": {

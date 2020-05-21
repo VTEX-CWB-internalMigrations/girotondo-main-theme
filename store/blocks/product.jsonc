@@ -8,7 +8,10 @@
       "shelf.relatedProducts",
       "product-reviews",
       "product-questions-and-answers"
-    ]
+    ],
+    "props":{
+      "blockClass":"master-product"
+    }
   },
   "flex-layout.row#product-breadcrumb": {
     "props": {

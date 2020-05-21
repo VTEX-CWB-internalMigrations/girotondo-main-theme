@@ -37,3 +37,19 @@
     font-weight: 100;
     font-size: 12px;
 }
+
+.menuItem--mobile-menu{
+    background: #f8cb16;
+    color: #fff;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    margin: 5px 0px;
+}
+
+.menuContainer--mobile-menu{
+    width: auto;
+}
+
+.styledLink--mobile-menu{
+    color: #fff;
+}
