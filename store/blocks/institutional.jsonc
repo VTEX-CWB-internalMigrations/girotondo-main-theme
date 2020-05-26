@@ -8,7 +8,10 @@
     "flex-layout.row#title-intitutionalTrue":{
       "children":[
         "rich-text#title-intitutionalTrue"
-      ]
+      ],
+      "props":{
+        "blockClass": "title-institutional"
+      }
     },
     "rich-text#title-intitutionalTrue":{
       "props":{
@@ -19,7 +22,10 @@
     "flex-layout.row#content-intitutionalTrue":{
       "children":[
         "rich-text#content-intitutionalTrue"
-      ]
+      ],
+      "props":{
+        "blockClass": "text-institutional"
+      }
     },  
     "rich-text#content-intitutionalTrue":{
       "props":{

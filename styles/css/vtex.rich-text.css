@@ -107,11 +107,11 @@
 }
 
 .container--title-intitutional .paragraph{
-  border-left: 5px solid #ff6600;
-  padding-bottom: .3em;
+  border-left: 5px solid #f8cb16;
   font-weight: bold;
   font-size: 1.2em;
-  padding-left: .5em;
+  padding: 10px;
+  margin: 0px;
 }
 
 .container--footer{
@@ -306,6 +306,35 @@
   height: 3px;
   background: #f8cb16;
   border-radius: 100px;
+}
+
+.container--content-intitutional{
+  max-width: 1000px;
+}
+
+.container--title-intitutional{
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  max-width: 1000px;
+  background: #ececec;
+  margin-top: 40px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.wrapper--content-intitutional{
+  padding: 15px;
+}
+
+.headingLevel5--content-intitutional{
+  font-weight: 600;
+  margin: 25px 0px 10px;
+  color: #025792;
+}
+
+.paragraph--content-intitutional{
+  font-size: 14px;
 }
 
 @media only screen and (min-width: 40em){
