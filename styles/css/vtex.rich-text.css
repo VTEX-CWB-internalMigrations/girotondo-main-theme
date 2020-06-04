@@ -3,7 +3,10 @@
   font-size: 11px;
   font-weight: 600;
   color:#09609f;
+  font-family: muli;
 }
+
+
 
 .container--contact-header .paragraph{color:#09609f;}
 .link--content-intitutional{color:#ffffff !important;}
@@ -40,7 +43,7 @@
 .container--link-first-intitutional .link--footer-title,
 .container--link-first-intitutional .link--link-first-intitutional{
   color:#fff;
-  border-bottom: 2px solid #f8cb16;
+  border-bottom: 2px solid #f7eb14;
   width: auto !important;
   text-decoration: none;
   padding-bottom: .5em;
@@ -107,7 +110,7 @@
 }
 
 .container--title-intitutional .paragraph{
-  border-left: 5px solid #f8cb16;
+  border-left: 5px solid #f7eb14;
   font-weight: bold;
   font-size: 1.2em;
   padding: 10px;
@@ -119,8 +122,16 @@
   text-align: center;
 }
 
+.paragraph--shelfTitle{
+  font-family: muli;
+}
+
+.paragraph--text-copyright{
+  color: #58595b;
+}
+
 .container--deals{justify-content: center;}
-.container--deals .paragraph{margin:.3em 0;font-size:.9em;text-align: center;}
+.container--deals .paragraph{margin:.3em 0;font-size:.9em;text-align: center;font-family: muli;color: #58595b;}
 
 .container--howBuy-title{text-align: center;justify-content: center;}
 .container--howBuy-title .headingLevel3{
@@ -252,12 +263,12 @@
 }
 
 .container--text-copyright{
-  background: #f8cb16;
+  background: #f7eb14;
   margin-bottom: 0px;
 }
 
 .paragraph--footer-title{
-  color: #f8cb16;
+  color: #f7eb14;
 }
 
 .paragraph--text-copyright{
@@ -281,7 +292,7 @@
     content: "";
     width: 30%;
     height: 3px;
-    background: #f8cb16;
+    background: #f7eb14;
     display: block;
     position: absolute;
     bottom: 0px;
@@ -304,7 +315,7 @@
   content: "";
   display: block;
   height: 3px;
-  background: #f8cb16;
+  background: #f7eb14;
   border-radius: 100px;
 }
 

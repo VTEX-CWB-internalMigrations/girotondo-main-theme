@@ -177,7 +177,7 @@
 }
 
 .specificationsTabsContainer :global(.vtex-tab__button--active){
-  border-bottom: 2px solid #f8cb16;
+  border-bottom: 2px solid #f7eb14;
 }
 
 .specificationsTitle{
@@ -259,7 +259,8 @@
 }
 
 .infoCardImage{
-  border-radius: 35px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 
 .searchBarContainer{
@@ -281,10 +282,6 @@
 
 .specificationsTabsContainer :global(.vtex-tabs__nav){
   overflow-x: scroll;
-}
-
-.specificationsTabsContainer{
-
 }
 
 .carouselGaleryCursor {

@@ -1,22 +1,25 @@
 .brandName--shelf-nameProduct-featured{
-    font-weight: bold;
-    margin: 0 1em;
     text-transform: initial;
     color: #000;
     display: block;
-    font-size: 0.9em;
     max-height: 35px;
     height: 35px;
 }
 .nameContainer{min-height:80px;}
-.clearLink .buyButton{margin:0 1em;}
+.clearLink .buyButton{margin:0 30px;}
 .clearLink--shelf-footer-li:hover .image{width:auto;height:auto}
 .containerNormal{background:#fff;}
 .priceContainer{padding-bottom:0;}
 
 .priceContainer{
     text-align: left;
-    padding-left: 35px;
+    padding: 10px 0px;
+}
+
+.price_installmentContainer{
+    font-family: muli;
+    font-weight: 300;
+    font-size: 16px;
 }
 
 .sellingPrice{
@@ -34,14 +37,32 @@
 }
 
 .buyButton :global(.vtex-button){
-    border-radius: 100px;
+    border-radius: 10px;
     border: none;
+    font-family: muli;
+}
+
+.containerNormal{
+    padding: 0px 10px;
+}
+
+.productBrand--shelf-nameProduct-featured{
+    font-size: 16px;
+    font-weight: 100;
+    font-family: muli;
+    text-align: left;
+}
+
+.nameContainer--shelf-nameProduct-featured{
+    padding: 0px;
+    min-height: 10px;
+    height: 40px;
+    overflow: hidden;
 }
 
 @media only screen and (min-width: 40em){
     .brandName--shelf-nameProduct-featured{
         display: block;
-        font-size:1em;
         max-height: auto;
         height: auto;
     }    

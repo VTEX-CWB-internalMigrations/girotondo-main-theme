@@ -66,13 +66,20 @@
   "flex-layout.row#footer-2-desktop":{
     "children":[
       "flex-layout.col#about-us",
-      "footer-spacer",
+      "flex-layout.col#social-media",
       "flex-layout.col#info-buy",
       "flex-layout.col#payment"
     ],
     "props":{
       "blockClass":"footer-row-2"
     }
+  },
+  "flex-layout.col#social-media":{
+    "children":[
+      "rich-text#footer-contact-title",
+      "rich-text#footer-phone",
+      "rich-text#footer-hour"
+    ]
   },
   "flex-layout.col#about-us":{
     "children":[

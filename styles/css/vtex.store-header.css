@@ -2,10 +2,6 @@
     border-bottom:0;
 }
 
-.headerRowBackground{
-    border-bottom: 1px solid #eee;
-}
-
 .headerRowBackground--header-lineOne{
     background:#f4f4f4;
 }
@@ -28,9 +24,6 @@
     border-bottom: 1px solid #09609f;
 }
 
-.headerRowContentContainer--category-menu-background{
-    box-shadow: 1px 3px 13px #0000006b;
-}
 
 .headerRowContentContainer--contact-mobile{
     background: #f4f4f4;
