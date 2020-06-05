@@ -51,8 +51,8 @@
 
 .galleryTitle--layout{
     padding: 10px;
-    color: #fff;
-    background: linear-gradient(90deg, rgba(248,203,22,1) 0%, rgba(248,203,22,1) 29%, rgb(255, 236, 160) 100%);
+    color: #58595b;
+    background: #f7eb14;
     font-weight: 100;
 }
 

@@ -54,6 +54,8 @@
 .container--link-intitutional .paragraph--link-intitutional .link--link-intitutional{
   color:#fff;
   text-decoration: none;
+  font-family: muli;
+  font-weight: 600;
 }
 
 .container--description-footer .paragraph{
@@ -130,8 +132,20 @@
   color: #58595b;
 }
 
+.image--deals{
+  height: 15px;
+}
+
 .container--deals{justify-content: center;}
-.container--deals .paragraph{margin:.3em 0;font-size:.9em;text-align: center;font-family: muli;color: #58595b;}
+.container--deals .paragraph{
+  margin:.3em 0;
+  font-size:.9em;
+  text-align: center;
+  font-family: muli;
+  color: #58595b;
+  display: flex;
+  align-items: center;
+}
 
 .container--howBuy-title{text-align: center;justify-content: center;}
 .container--howBuy-title .headingLevel3{
@@ -255,6 +269,7 @@
 
 .paragraph--deals {
   color: #ffffff;
+  display: flex;
 }
 
 .container--shelfTitle{
@@ -273,9 +288,9 @@
 
 .paragraph--text-copyright{
   border: none;
-  color: #fff;
   font-weight: 600;
   padding-bottom: 10px;
+  font-family: muli;
 }
 
 .paragraph--shelfTitle{
@@ -346,6 +361,14 @@
 
 .paragraph--content-intitutional{
   font-size: 14px;
+}
+
+.container--description-footer{
+  padding: 0px 10px;
+}
+
+.paragraph--description-footer{
+  font-family: muli;
 }
 
 @media only screen and (min-width: 40em){

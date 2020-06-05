@@ -231,7 +231,7 @@
 
 .infoCardCallActionContainer :global(.vtex-button){
   border: none;
-  border-radius: 100px;
+  border-radius: 5px;
 }
 
 .specificationsTab{
@@ -259,17 +259,26 @@
 }
 
 .infoCardImage{
-  border-top-right-radius: 10px;
-  border-bottom-right-radius: 10px;
+  border-radius: 10px;
+}
+
+.infoCardHeadline--info-card-featured, .infoCardSubhead--info-card-featured , .infoCardCallActionContainer--info-card-featured{
+  font-family: muli;
+}
+
+.infoCardContainer--info-card-featured{
+  margin: 10px 20px;
+  background: #f6f6f6;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.infoCardImage--info-card-featured{
+  border-radius: 10px;
 }
 
 .searchBarContainer{
   padding: 10px;
-}
-
-.infoCardContainer--info-card-featured{
-  padding: 10px 0px;
-  border-bottom: 4px dotted #025792;
 }
 
 .infoCardHeadline--info-card-featured{

@@ -17,7 +17,7 @@
   },
   "rich-text#deal1": {
     "props": {
-      "text": "![frete grátis](https://brasiltatica.vteximg.com.br/arquivos/brazil-map.png 'Entrega para todo o Brasil') Entrega para todo Brasil",
+      "text": "![frete grátis](https://girotondo.vteximg.com.br/arquivos/001-Brazil.png 'Entrega para todo o Brasil') Entrega para todo Brasil",
       "blockClass": "deals"
     }
   },
@@ -28,7 +28,7 @@
   },  
   "rich-text#deal2": {
     "props": {
-      "text": "![pagamento facilitado](https://brasiltatica.vteximg.com.br/arquivos/credit-card.png 'Pagamento facilitado') Pagamento facilitado",
+      "text": "![pagamento facilitado](https://girotondo.vteximg.com.br/arquivos/002-Card.png 'Pagamento facilitado') Pagamento facilitado",
       "blockClass": "deals"
     }
   },
@@ -39,7 +39,7 @@
   },
   "rich-text#deal3": {
     "props": {
-      "text": "![Qualidade garantida](https://brasiltatica.vteximg.com.br/arquivos/guarantee.png 'Qualidade garantida') Qualidade garantida",
+      "text": "![Qualidade garantida](https://girotondo.vteximg.com.br/arquivos/003-Medal.png 'Qualidade garantida') Qualidade garantida",
       "blockClass": "deals"
     }
   },
@@ -50,7 +50,7 @@
   },
   "rich-text#deal4": {
     "props": {
-      "text": "![Compra segura](https://brasiltatica.vteximg.com.br/arquivos/lock.png 'Compra 100% segura') Compra 100% segura",
+      "text": "![Compra segura](https://girotondo.vteximg.com.br/arquivos/004-Locks.png 'Compra 100% segura') Compra 100% segura",
       "blockClass": "deals"
     }
   }
