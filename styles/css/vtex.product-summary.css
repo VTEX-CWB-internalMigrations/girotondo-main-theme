@@ -40,6 +40,7 @@
     border-radius: 10px;
     border: none;
     font-family: muli;
+    display: none;
 }
 
 .containerNormal{
