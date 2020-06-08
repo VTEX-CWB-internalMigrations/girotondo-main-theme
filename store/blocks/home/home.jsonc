@@ -230,14 +230,6 @@
       "blockClass": "btnBuy"
     }
   },
-  "cash-discount-summary#fourPercent": {
-    "props": {
-      "percentageNumber": 4,
-      "minimumPrice": 1500,
-      "discountDescription": "depósito",
-      "blockClass": "discountSummary"
-    }
-  },
   // Shelf 02
   "flex-layout.row#shelf-special": {
     "children": [
@@ -349,39 +341,39 @@
   },
   "flex-layout.row#featured1-grid": {
     "children": [
-      "info-card#featured001"
+      "info-card#featured0001"
     ]
   },
   "flex-layout.row#featured2-grid": {
     "children": [
-      "info-card#featured002"
+      "info-card#featured0002"
     ]
   },
   "flex-layout.row#featured3-grid": {
     "children": [
-      "info-card#featured003"
+      "info-card#featured0003"
     ]
   },
   "flex-layout.row#featured4-grid": {
     "children": [
-      "info-card#featured004"
+      "info-card#featured0004"
     ]
   },
-  "info-card#featured001": {
+  "info-card#featured0001": {
     "props": {
       "id": "info-card-featured1",
       "isFullModeStyle": false,
-      "textPosition": "right",
+      "textPosition": "left",
       "imageUrl": "https://brasiltatica.vteximg.com.br/assets/vtex.file-manager-graphql/images/Shotgun_for_Hunting_in_Jungle_HD_Desktop_Images___95a66d3c305058ac3c782fd97ddbc275.jpg",
       "headline": "ARMAS DE CAÇA",
       "subhead": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
       "callToActionText": "ver armas",
       "callToActionUrl": "/armas-de-fogo",
-      "blockClass": "info-card-featured",
+      "blockClass": ["info-card-featured", "info-one"],
       "textAlignment": "left"
     }
   },
-  "info-card#featured002": {
+  "info-card#featured0002": {
     "props": {
       "id": "info-card-featured4",
       "isFullModeStyle": false,
@@ -391,25 +383,25 @@
       "subhead": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
       "callToActionText": "ver kits",
       "callToActionUrl": "/armas-de-fogo",
-      "blockClass": "info-card-featured",
+      "blockClass": ["info-card-featured" , "info-two"],
       "textAlignment": "left"
     }
   },
-  "info-card#featured003": {
+  "info-card#featured0003": {
     "props": {
       "id": "info-card-featured3",
       "isFullModeStyle": false,
-      "textPosition": "right",
+      "textPosition": "left",
       "imageUrl": "https://brasiltatica.vteximg.com.br/assets/vtex.file-manager-graphql/images/Weapon-ammunition-bullets_3840x2160___872dcb3abd7ae110f636bdd5278f9a12.jpg",
       "headline": "CAIXAS PARA MUNIÇÃO",
       "subhead": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
       "callToActionText": "ver caixas",
       "callToActionUrl": "/armas-de-fogo",
-      "blockClass": "info-card-featured",
+      "blockClass": ["info-card-featured", "info-three"],
       "textAlignment": "left"
     }
   },
-  "info-card#featured004": {
+  "info-card#featured0004": {
     "props": {
       "id": "info-card-featured4",
       "isFullModeStyle": false,
@@ -419,7 +411,7 @@
       "subhead": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
       "callToActionText": "ver espingardas",
       "callToActionUrl": "/armas-de-fogo",
-      "blockClass": "info-card-featured",
+      "blockClass": ["info-card-featured", "info-four"],
       "textAlignment": "left"
     }
   },

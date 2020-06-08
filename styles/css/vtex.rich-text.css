@@ -65,7 +65,7 @@
 }
 
 .container--footer-title{font-weight: bold;}
-.container--footer-title .paragraph{margin:0 0 .5em;}
+.container--footer-title .paragraph{margin:0 0 .5em;color: #58595b;}
 .container--footer-textDefault .paragraph{font-size: 1em;font-weight: bold;margin:0 0 .5em;}
 .container--text-copyright{margin: 1em 0;}
 .container--text-copyright .paragraph{text-align:center;font-size:.8em;}
@@ -283,7 +283,7 @@
 }
 
 .paragraph--footer-title{
-  color: #f7eb14;
+  color: #58595b;
 }
 
 .paragraph--text-copyright{
@@ -383,6 +383,11 @@
     line-height:1;
     font-size: .8em;
   }
+  
+  .paragraph--shelfTitle{
+    padding: 0px 125px;
+  }
+
 }
 
 .container--link-regulationGun , .container--link-regulationPlane{

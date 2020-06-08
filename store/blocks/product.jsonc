@@ -79,19 +79,37 @@
     "children": [
       "product-name#productDetail-name",
       "product-identifier.product",
+      "flex-layout.row#price-box",
+      "shipping-simulator"
+      // "share#default"
+    ]
+  },
+
+  "flex-layout.row#price-box":{
+    "children":[
+      "flex-layout.col#price-box"
+    ],
+    "props":{
+      "blockClass": "product-main-info"
+    }
+  },
+
+  "flex-layout.col#price-box":{
+    "children":[
       "product-highlights",
       "product-price#product-details",
-      "cash-discount",
       // "product-separator",
       // "product-quantity",
       "sku-selector",
       "product-assembly-options",
       "flex-layout.row#buy-button",
-      "availability-subscriber",
-      "shipping-simulator"
-      // "share#default"
-    ]
+      "availability-subscriber"
+    ],
+    "props":{
+      "blockClass": "product-main-info"
+    }
   },
+
   "product-name#productDetail-name": {
     "props": {
       "blockClass": "productDetails-name"
@@ -112,14 +130,6 @@
       "showInstallments": true,
       "showSavings": true,
       "blockClass": "productDetails-price"
-    }
-  },
-  "cash-discount": {
-    "props": {
-      "blockClass": "cash-discount",
-      "percentageNumber": 4,
-      "minimumPrice": 1500,
-      "discountDescription": "depósito"
     }
   },
   "flex-layout.row#buy-button": {

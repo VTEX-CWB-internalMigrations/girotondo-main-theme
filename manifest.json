@@ -46,7 +46,6 @@
     "vtex.product-review-interfaces": "1.x",
     "vtex.telemarketing": "2.x",
     "vtex.order-placed": "2.x",
-    "vtex.cash-discount": "0.x",
     "vtex.list-context": "0.x",
     "vtex.slider-layout": "0.x",
     "vtex.responsive-layout": "0.x"

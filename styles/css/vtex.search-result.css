@@ -56,6 +56,20 @@
     font-weight: 100;
 }
 
+.galleryTitle--layout{
+    margin: 0px;
+}
+
+.filterMessage{
+    background: #F6F6F6;
+    margin: 0px;
+    padding: 10px;
+}
+
+.gallery{
+    padding: 0px;
+}
+
 @media only screen and (min-width: 40em){
     .galleryItem{border-left: 1px dashed #f3f3f3;border-bottom: 1px dashed #f3f3f3;}
     .orderByButton{

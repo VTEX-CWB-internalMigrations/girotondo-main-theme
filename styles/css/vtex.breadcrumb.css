@@ -1,3 +1,7 @@
 .link{font-size:.9em;text-transform: lowercase;}
 .homeLink .homeIcon {height:20px;vertical-align: middle;}
-.container{padding: 10px;}
+.container{
+    background: #F6f6f6;
+    margin-bottom: 15px;
+    padding: 5px 10px;
+}

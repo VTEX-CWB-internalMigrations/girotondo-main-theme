@@ -268,9 +268,13 @@
 
 .infoCardContainer--info-card-featured{
   margin: 10px 20px;
-  background: #f6f6f6;
-  padding: 10px;
+  padding: 20px;
   border-radius: 10px;
+}
+
+.buyButtonText--btn-productDetail{
+  font-size: 14px;
+  font-family: muli;
 }
 
 .infoCardImage--info-card-featured{
@@ -282,7 +286,12 @@
 }
 
 .infoCardHeadline--info-card-featured{
-  font-weight: 100;
+  font-weight: 600;
+}
+
+.infoCardCallActionContainer--info-card-featured :global(.vtex-button){
+  font-family: muli;
+  font-weight: 600;
 }
 
 .infoCardCallActionContainer--info-card-featured{
@@ -313,5 +322,9 @@
   }
   .specificationsTabsContainer :global(.vtex-tabs)::before{
     display: none;
+  }
+
+  .infoCardContainer--info-card-featured{
+    padding: 20px 125px;
   }
 }

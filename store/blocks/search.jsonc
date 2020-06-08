@@ -117,12 +117,12 @@
   "flex-layout.col#content": {
     "children": [
       "flex-layout.row#searchinfo",
-      "flex-layout.row#fetchprevious",
       "flex-layout.row#products",
       "flex-layout.row#fetchmore"
     ],
     "props": {
-      "width": "grow"
+      "width": "grow",
+      "blockClass": "content-search"
     }
   },
   "flex-layout.row#searchinfo": {
@@ -247,7 +247,6 @@
       "product-summary-name",
       "product-summary-space",
       "product-summary-price",
-      "cash-discount-summary#fourPercent",
       "product-summary-buy-button"
       // "product-summary-buy-button"
       //"rich-text#buyButtonShelf"
