@@ -188,7 +188,7 @@
     padding: 10px;
     background: #09609f;
     color: #fff;
-    border-radius: 65px;
+    border-radius: 5px;
 }
 
 .specificationsTabsContainer{
@@ -199,7 +199,6 @@
 .specificationsTab{
   background: #f6f6f6;
   padding: 25px;
-  overflow: scroll;
 }
 
 .specificationsTab{
@@ -241,6 +240,7 @@
 .productBrand--productDetails-name{
   font-size: 25px;
   color: #595959;
+  font-family: muli;
 }
 
 .productBrand--productDetails-name::after{
@@ -256,6 +256,7 @@
 .sellingPriceValue{
   font-weight: 600;
   font-size: 22px;
+  font-family: muli;
 }
 
 .infoCardImage{
@@ -273,8 +274,9 @@
 }
 
 .buyButtonText--btn-productDetail{
-  font-size: 14px;
+  font-size: 18px;
   font-family: muli;
+  padding: 10px;
 }
 
 .infoCardImage--info-card-featured{
@@ -292,6 +294,7 @@
 .infoCardCallActionContainer--info-card-featured :global(.vtex-button){
   font-family: muli;
   font-weight: 600;
+  text-transform: none
 }
 
 .infoCardCallActionContainer--info-card-featured{
@@ -314,6 +317,8 @@
   }
   .price_installmentContainer--productDetails-price{
     text-transform: lowercase;
+    font-family: muli;
+
   }
   .infoCardSubhead--info-card-featured{max-width:35em;}
   .infoCardContainer--info-card-featured{
@@ -325,6 +330,11 @@
   }
 
   .infoCardContainer--info-card-featured{
-    padding: 20px 125px;
+    padding: 0px 100px 20px;
+  }
+
+  .infoCardImage--info-card-featured{
+    height: 90%;
+    max-height: 270px;
   }
 }
