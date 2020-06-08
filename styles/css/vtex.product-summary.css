@@ -31,7 +31,6 @@
 }
 
 .imageContainer{
-    min-height: 290px;
     display: flex;
     align-items: center;
 }
