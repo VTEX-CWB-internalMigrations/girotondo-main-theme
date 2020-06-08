@@ -201,11 +201,13 @@
   },
   "slider-layout#demo-products": {
     "props": {
-      "showNavigationArrows": true,
-      "navigationStep": "Number",
-      "usePagination": true,
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 3,
+        "phone": 1
+      },
       "infinite": true,
-      "maxItems": 10,
+      "fullWidth": false,
       "blockClass": "summary-main"
     }
   },

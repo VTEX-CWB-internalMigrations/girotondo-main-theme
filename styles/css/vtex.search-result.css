@@ -18,10 +18,6 @@
     padding: .2em 0;
 }
 
-.filters--layout{
-    width: 200px    
-}
-
 .buttonShowMore{
     margin: 1em 0 0;
 }
@@ -70,6 +66,15 @@
     padding: 0px;
 }
 
+.layoutSwitcher{
+    display: flex;
+    align-items: center;
+    background: #f0f0f0;
+    margin: 0px 2px;
+    padding: 0px;
+}
+
+
 @media only screen and (min-width: 40em){
     .galleryItem{border-left: 1px dashed #f3f3f3;border-bottom: 1px dashed #f3f3f3;}
     .orderByButton{
@@ -91,7 +96,10 @@
         background: #f4f4f4;
         padding: .3rem 0;    
     }
-    
+
+    .filters--layout{
+        width: 200px    
+    }
     .filterItem{
         padding-left:1em;
     }

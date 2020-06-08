@@ -9,3 +9,19 @@
 .menuIcon{
     color: #fff;
 }
+
+.drawer.opened{
+    width: 60% !important;
+    max-width: 450px !important;
+    min-width: 200px !important;
+}
+.childrenContainer{
+    display: flex;
+    justify-content: center;
+}
+
+.closeIcon{
+    background: #025792;
+    border-radius: 5px;
+    color: #fff;
+}

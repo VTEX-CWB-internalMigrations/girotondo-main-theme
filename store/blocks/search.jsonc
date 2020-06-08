@@ -170,8 +170,8 @@
     "props": {
       "pagination": "show-more",
       "mobileLayout": {
-        "mode1": "small",
-        "mode2": "normal"
+        "mode1": "normal",
+        "mode2": "small"
       }
     }
   },
