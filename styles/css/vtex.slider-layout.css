@@ -14,6 +14,22 @@
     color: #fff;
 }
 
+.sliderLayoutContainer--brandsSlider{
+    padding: 0px 100px;
+    margin-top: 25px;
+}
+
+.slide--brandsSlider{
+    height: 100px;
+}
+
+.caretIcon--brandsSlider{
+    background: #0060a1;
+    border-radius: 5px;
+    padding: 5px;
+    color: #fff;
+}
+
 @media only screen and (min-width: 800px){
     .sliderLayoutContainer--summary-main{
         padding: 0px 100px;

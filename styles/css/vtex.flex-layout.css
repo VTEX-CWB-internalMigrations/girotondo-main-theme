@@ -130,6 +130,10 @@
     align-items: center;
 }
 
+.flexColChild--social-media-flex{
+    max-height: 30px;
+}
+
 @media only screen and (min-width: 40em){
     .flexRow--banner-featured-content{display:block;}
     .flexColChild--banner-featured-01{text-align: right;margin-top:1em;z-index:2}

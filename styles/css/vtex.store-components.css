@@ -177,6 +177,10 @@
   height: 65px;
 }
 
+.specificationsTabsContainer :global(.vtex-tab__button):last-child{
+  display: none;
+}
+
 .specificationsTabsContainer :global(.vtex-tab__button--active){
   border-bottom: 2px solid #f7eb14;
 }
@@ -316,6 +320,11 @@
   padding-top: 10px;
 }
 
+.imageElement--brandsSlider{
+  max-width: 100px;
+  max-height: 150px !important;
+}
+
 
 @media only screen and (min-width: 40em){
   .label--content-newsletter{
@@ -356,6 +365,6 @@
 
   .infoCardImage--info-card-featured{
     height: 90%;
-    max-height: 270px;
+    max-height: 350px;
   }
 }

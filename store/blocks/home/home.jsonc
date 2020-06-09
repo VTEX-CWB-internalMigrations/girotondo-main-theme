@@ -3,6 +3,7 @@
     "blocks": [
       "flex-layout.row#deals",
       "carousel#default",
+      "list-context.image-list#brands",
       // "flex-layout.row#banner-featured",
       /* You can make references to blocks defined in other files.
        * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
@@ -607,6 +608,60 @@
       "label": "Cadastre-se em nossa newsletter e receba notícias sobre a Brasil Tática e o mercado de armas",
       "submit": "Cadastrar",
       "blockClass": "content-newsletter"
+    }
+  },
+  "slider-layout#brands": {
+    "props": {
+      "blockClass": "brandsSlider",
+      "infinite": true,
+      "showNavigationArrows": "always",
+      "showPaginationDots": "never"
+    }
+  },
+  "list-context.image-list#brands": {
+    "children": [
+      "slider-layout#brands"
+    ],
+    "props": {
+      "blockClass": "Brands",
+      "images": [
+        {
+          "image": "https://girotondo.vteximg.com.br/arquivos/001-logo.png",
+          "mobileImage": "https://girotondo.vteximg.com.br/arquivos/001-logo.png"
+        },
+        {
+          "image": "https://girotondo.vteximg.com.br/arquivos/002-logo.png",
+          "mobileImage": "https://girotondo.vteximg.com.br/arquivos/002-logo.png"
+        },
+        {
+          "image": "https://girotondo.vteximg.com.br/arquivos/003-logo.png",
+          "mobileImage": "https://girotondo.vteximg.com.br/arquivos/003-logo.png"
+        },
+        {
+          "image": "https://girotondo.vteximg.com.br/arquivos/004-logo.png",
+          "mobileImage": "https://girotondo.vteximg.com.br/arquivos/004-logo.png"
+        },
+        {
+          "image": "https://girotondo.vteximg.com.br/arquivos/005-logo.png",
+          "mobileImage": "https://girotondo.vteximg.com.br/arquivos/005-logo.png"
+        },
+        {
+          "image": "https://girotondo.vteximg.com.br/arquivos/006-logo.png",
+          "mobileImage": "https://girotondo.vteximg.com.br/arquivos/006-logo.png"
+        },
+        {
+          "image": "https://girotondo.vteximg.com.br/arquivos/007-logo.png",
+          "mobileImage": "https://girotondo.vteximg.com.br/arquivos/007-logo.png"
+        },
+        {
+          "image": "https://girotondo.vteximg.com.br/arquivos/008-logo.png",
+          "mobileImage": "https://girotondo.vteximg.com.br/arquivos/008-logo.png"
+        },
+        {
+          "image": "https://girotondo.vteximg.com.br/arquivos/009-logo.png",
+          "mobileImage": "https://girotondo.vteximg.com.br/arquivos/009-logo.png"
+        }
+      ]
     }
   }
 }

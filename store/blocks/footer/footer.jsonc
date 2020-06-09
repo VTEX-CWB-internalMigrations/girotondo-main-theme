@@ -66,8 +66,8 @@
   "flex-layout.row#footer-2-desktop":{
     "children":[
       "flex-layout.col#about-us",
-      "flex-layout.col#social-media",
       "flex-layout.col#info-buy",
+      "flex-layout.col#social-media",
       "flex-layout.col#payment"
     ],
     "props":{
@@ -76,9 +76,16 @@
   },
   "flex-layout.col#social-media":{
     "children":[
-      "rich-text#footer-contact-title",
-      "rich-text#footer-phone",
-      "rich-text#footer-hour"
+      "rich-text#footer-contact-title-social",
+      "social-networks"
+    ],
+    "props":{
+      "blockClass": "social-media-flex"
+    }
+  },
+  "social-networks":{
+    "children":[
+
     ]
   },
   "flex-layout.col#about-us":{
@@ -117,6 +124,12 @@
   "rich-text#footer-contact-title":{
     "props":{
       "text": "TELEVENDAS",
+      "blockClass":"footer-title"
+    }
+  },
+  "rich-text#footer-contact-title-social":{
+    "props":{
+      "text": "REDES SOCIAIS",
       "blockClass":"footer-title"
     }
   },
