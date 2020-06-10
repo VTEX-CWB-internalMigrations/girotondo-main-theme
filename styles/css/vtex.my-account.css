@@ -1,0 +1,15 @@
+.menuLinks :global(.vtex-account_menu-link){
+    color: #999;
+}
+
+.menuLinks :global(.vtex-account_menu-link):hover{
+    color: #000;
+}
+
+.menuLink{
+    color: #999;
+}
+
+.menuLink:hover{
+    color: #000;
+}

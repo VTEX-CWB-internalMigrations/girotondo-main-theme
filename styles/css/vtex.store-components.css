@@ -325,6 +325,11 @@
   max-height: 150px !important;
 }
 
+.infoCardImage--info-card-featured{
+  height: 90%;
+  max-height: 190px;
+}
+
 
 @media only screen and (min-width: 40em){
   .label--content-newsletter{
