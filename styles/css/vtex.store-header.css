@@ -35,3 +35,7 @@
     box-shadow: 0px 0px 10px #0000001c;
 }
 
+.headerRowContainer--category-menu-background{
+    position: relative;
+}
+

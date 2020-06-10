@@ -44,3 +44,38 @@
 .styledLink--mobile-menu{
     color: #58595b;
 }
+
+.menuContainerNav--brand-class{
+    position: absolute;
+    width: 120px;
+    border-bottom: 1px solid #005f9f;
+}
+
+.menuContainer--brand-class{
+    width: 100%;
+}
+
+.menuContainer--brand-class .menuItem{
+    width: 100%;
+}
+
+.menuContainer--brand-class .menuItem .styledLinkContainer{
+    margin: 0px auto;
+    display: flex;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+}
+
+.menuContainer--brand-class .styledLink{
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-family: muli;
+    color: #0060a3;
+}
+
+.submenuWrapper--brands-submenu{
+    width: 100vw;
+    background: #f4f4f4;
+}

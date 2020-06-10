@@ -100,13 +100,55 @@
   },    
   "header-row#3-desktop":{
     "children":[
-      "category-menu"
+      "category-menu",
+      "vtex.menu@2.x:menu#brands-menu"
     ],
     "props" :{
       "sticky": true,
       "blockClass": "category-menu-background"
     }
   },
+
+  "vtex.menu@2.x:menu#brands-menu":{
+    "children":[
+      "menu-item#brands"
+    ],
+    "props":{
+      "blockClass": "brand-class"
+    }
+  },
+  "menu-item#brands":{
+    "blocks":[
+      "vtex.menu@2.x:submenu#brands"
+    ],
+    "props":{
+      "id": "menu-item-category-brands",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "Marcas",
+        "text": "Marcas"
+      }
+    }
+  },
+  "vtex.menu@2.x:submenu#brands":{
+    "children":[
+      "vtex.menu@2.x:menu#brands-submenu"
+    ],
+    "props":{
+      "blockClass": "brands-submenu"
+    }
+  },
+  "vtex.menu@2.x:menu#brands-submenu":{
+    "children":[
+    ]
+  },
+
+
   // Mobile
 
   "header-layout.mobile": {
