@@ -61,7 +61,7 @@
 
 .menuContainer--brand-class .menuItem .styledLinkContainer{
     margin: 0px auto;
-    display: flex;
+    display: inline-flex;
     width: 100%;
     text-align: center;
     justify-content: center;
@@ -79,3 +79,14 @@
     width: 100vw;
     background: #f4f4f4;
 }
+
+.submenuContainer--brands-submenu .menuContainer{
+    min-width: 700px;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.submenuContainer--brands-submenu .menuContainer .menuItem{
+    width: 30%;
+}
+
