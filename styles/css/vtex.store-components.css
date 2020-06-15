@@ -321,8 +321,8 @@
 }
 
 .imageElement--brandsSlider{
-  max-width: 100px;
-  max-height: 150px !important;
+  max-width: 150px;
+  max-height: 105px !important;
 }
 
 .infoCardImage--info-card-featured{
