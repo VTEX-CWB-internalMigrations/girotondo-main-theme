@@ -14,6 +14,9 @@
 .headerRowContainer--category-menu-background,
 .headerRowBackground--category-menu-background {
     border: none;
+}
+
+.headerRow--category-menu-background{
     box-shadow: 0 10px 10px rgba(0,0,0,.11);
 }
 
