@@ -13,8 +13,8 @@
 .headerRowContentContainer--category-menu-background,
 .headerRowContainer--category-menu-background,
 .headerRowBackground--category-menu-background {
-    background-color: #09609f;
     border: none;
+    box-shadow: 0 10px 10px rgba(0,0,0,.11);
 }
 
 .headerRowContentContainer--header-lineOne{
