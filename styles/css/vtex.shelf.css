@@ -23,6 +23,43 @@
     top: inherit;    
 }
 
+.title--related-products{
+    color: #8d8d8d;
+    font-weight: 100;
+    font-size: 30px;
+    text-align: center;
+    padding: 0px 30px;
+    position: relative;
+    font-family: muli;
+    display: flex;
+    flex-direction: column;
+}
+
+.title--related-products::after{
+    border-radius: 100px;
+    content: "";
+    width: 30%;
+    height: 2px;
+    background: #f7eb14;
+    display: block;
+    bottom: 0px;
+    z-index: 99;
+    margin: 3px auto;
+}
+
+.relatedProducts--related-products{
+    max-width: 1200px;
+    padding-top: 10px;
+    margin: 0px auto 50px;
+}
+
+.caretIcon--related-products{
+    background: #0060a1;
+    border-radius: 5px;
+    padding: 5px;
+    color: #fff;
+}
+
 @media only screen and (min-width: 40em){
     .container--shelf-featured .title{
         font-size:2.25em;

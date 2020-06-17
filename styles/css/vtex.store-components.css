@@ -368,6 +368,13 @@
 }
 
 @media only screen and (min-width: 40em){
+  .resultsList{
+    z-index: 99999999;
+    position: fixed;
+    margin-top: 90px;
+    max-height: 300px;
+  }
+
   .label--content-newsletter{
     font-size: 1.75em;
     font-style: normal;
@@ -405,7 +412,7 @@
   }
 
   .infoCardImage--info-card-featured{
-    height: 90%;
-    max-height: 350px;
+    height: 530px;
+    max-height: fit-content;
   }
 }

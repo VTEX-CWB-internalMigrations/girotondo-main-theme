@@ -170,7 +170,10 @@
   "flex-layout.row#footer-3-desktop":{
     "children":[
       "rich-text#copyright"
-    ]
+    ],
+    "props":{
+      "blockClass": "last-footer-row"
+    }
   },
   "rich-text#copyright":{
     "props":{

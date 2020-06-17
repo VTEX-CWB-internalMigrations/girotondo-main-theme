@@ -5,12 +5,20 @@
       "flex-layout.row#product-main",
       // "flex-layout.row#banner-specification",
       "flex-layout.row#product-description",
-      "shelf.relatedProducts",
+      "shelf.relatedProducts#productPage",
       "product-reviews",
       "product-questions-and-answers"
     ],
     "props":{
       "blockClass":"master-product"
+    }
+  },
+  "shelf.relatedProducts#productPage":{
+    "blocks":[
+      "product-summary.shelf"
+    ],
+    "props":{
+      "blockClass": "related-products"
     }
   },
   "flex-layout.row#product-breadcrumb": {
