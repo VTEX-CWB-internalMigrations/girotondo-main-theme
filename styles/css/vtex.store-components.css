@@ -331,9 +331,41 @@
 }
 
 .productImagesGallerySlide{
+  padding: 0px 35px;
+}
+
+.swiperCaret .caretIcon{
+  padding: 4px 0px 4px 4px;
+  background: #0060a3;
+  color: #fff;
+  border-radius: 3px;
+}
+
+.swiperCaretPrev .caretIcon{
+  padding: 4px 3px 4px 1px
+}
+
+.productImagesThumbCaret{
+  background: #0060a3;
+  padding: 0px;
+  border-radius: 3px;
+}
+
+.productImagesThumbCaret{
+  color: #fff;
+}
+
+.carouselGaleryThumbs{
   padding: 0px 10px;
 }
 
+.gradientBaseBottom{
+  box-shadow: 0px -3px 8px 9px #fff;
+}
+
+.gradientBaseTop{
+  box-shadow: 0px 3px 8px 9px #fff;
+}
 
 @media only screen and (min-width: 40em){
   .label--content-newsletter{

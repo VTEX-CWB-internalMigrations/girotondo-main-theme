@@ -42,3 +42,11 @@
     position: relative;
 }
 
+.headerRowContainer--category-menu-background{
+    position: relative;
+    flex-direction: row-reverse;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+

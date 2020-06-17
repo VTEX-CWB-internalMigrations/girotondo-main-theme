@@ -46,8 +46,7 @@
 }
 
 .menuContainerNav--brand-class{
-    position: absolute;
-    width: 120px;
+    width: 85px;
     border-bottom: 1px solid #005f9f;
 }
 
@@ -76,7 +75,7 @@
 }
 
 .submenuWrapper--brands-submenu{
-    width: 100vw;
+    width: 85vw;
     background: #f4f4f4;
 }
 
@@ -84,6 +83,17 @@
     min-width: 700px;
     display: flex;
     flex-flow: row wrap;
+}
+
+.menuContainer--brand-class:hover{
+    background: #f4f4f4;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.menuContainerNav--brand-class{
+    width: 85px;
+    border-bottom: 1px solid #005f9f;
 }
 
 .submenuContainer--brands-submenu .menuContainer .menuItem{

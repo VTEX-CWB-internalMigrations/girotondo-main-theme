@@ -24,7 +24,22 @@
 .itemContainer--department:first-child .departmentLink{
   font-weight: 600;
   text-transform: uppercase;
-  font-size: 12px;
+  font-size: 13px;
+}
+
+.itemContainer--department:hover{
+  background: #f4f4f4;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.container{
+  max-width: 1150px;
+}
+
+.departmentLink{
+  text-transform: uppercase;
+  font-size: 13px;
 }
 
 .itemContainer {
@@ -81,7 +96,6 @@
 }
 
 @media only screen and (min-width: 40em){
-    .container{padding-left:11em;}
     /* Hover */
     .itemContainer .itemContainer{
       z-index: 9;
