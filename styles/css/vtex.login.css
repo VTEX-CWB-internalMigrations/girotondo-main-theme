@@ -6,14 +6,6 @@
     color: #09609f;
 }
 
-@media only screen and (min-width: 1025px){
-    .label{
-        color: #09609f;
-    }
-    .profileIcon--login-desktop{
-        color: #09609f;
-    }
-}
 
 @media only screen and (min-width: 1000px){
     /*
@@ -26,14 +18,18 @@
         color: #ff6600;
     }
     */
+    .container :global(.vtex-button){
+        background: #09609f;
+    }
 
-    .box{
-        right: -360px !important; 
+    .profileIcon--login-desktop{
+        color: #fff;
     }
-    .contentContainer{
-        min-width: 100%;
+
+    .label{
+        display: none;
     }
-    .arrowUp{
-        left: 25px; 
+    .container :global(.vtex-button__label){
+        padding: 0px 8px 0px 20px !important;
     }
 }

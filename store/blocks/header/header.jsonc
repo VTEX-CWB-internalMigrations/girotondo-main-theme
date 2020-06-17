@@ -13,14 +13,12 @@
   },
   "header-layout.desktop": {
     "children": [
-      "header-row#1-desktop",
       "header-row#2-desktop",
       "header-row#3-desktop"
     ]
   },
   "header-row#1-desktop":{
     "children":[
-      "login",
       "header-spacer",
       "rich-text#contact-header"
     ],
@@ -36,6 +34,7 @@
   },
   "login": {
     "props": {
+      "showIconProfile": true,
       "emailAndPasswordTitle": "LOGIN",
       "accessCodeTitle": "Receber código",
       "emailPraceholder": "E-mail",
@@ -49,6 +48,7 @@
       "logo#desktop",
       "header-spacer",
       "search-bar",
+      "login",
       "minicart"
     ],
     "props":{

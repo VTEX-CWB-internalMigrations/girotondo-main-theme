@@ -13,7 +13,6 @@
 }
 
 .itemContainer--department{
-  margin: 10px 0px;
   max-height: 40px;
 }
 
@@ -93,6 +92,11 @@
 
 .departmentLink:hover{
   text-decoration: underline;
+}
+
+.departmentList{
+  display: flex;
+  align-items: center;
 }
 
 @media only screen and (min-width: 40em){
