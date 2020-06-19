@@ -20,12 +20,6 @@
   border: 0px;
 }
 
-.itemContainer--department:first-child .departmentLink{
-  font-weight: 600;
-  text-transform: uppercase;
-  font-size: 13px;
-}
-
 .itemContainer--department:hover{
   background: #f4f4f4;
   border-top-left-radius: 5px;
@@ -37,6 +31,11 @@
 }
 
 .departmentLink{
+  font-size: 15px;
+}
+
+.itemContainer--department:first-child .departmentLink{
+  font-weight: 600;
   text-transform: uppercase;
   font-size: 13px;
 }

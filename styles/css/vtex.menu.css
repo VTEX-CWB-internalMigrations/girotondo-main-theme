@@ -75,13 +75,13 @@
 }
 
 .submenuWrapper--brands-submenu{
-    width: 85vw;
+    width: 100vw;
     background: #f4f4f4;
-    left: -130px;
+    left: 0px;
+    position: fixed;
 }
 
 .submenuContainer--brands-submenu .menuContainer{
-    min-width: 700px;
     display: flex;
     flex-flow: row wrap;
 }
@@ -98,6 +98,29 @@
 }
 
 .submenuContainer--brands-submenu .menuContainer .menuItem{
-    width: 30%;
+    width: 25%;
+}
+
+.submenu--brands-submenu{
+    min-width: 60%;
+    display: flex;
+    flex-flow: row wrap;
+    margin: 0px auto;
+}
+
+.menuContainer--brand-class .submenu--brands-submenu .styledLinkContainer{
+    margin: 0px auto;
+    display: inline-flex;
+    width: 100%;
+    text-align: left;
+    justify-content: left;
+}
+
+.submenu--brands-submenu .menuContainerNav{
+    width: 63%;
+}
+
+.submenu--brands-submenu .menuContainer{
+    width: 100%;
 }
 

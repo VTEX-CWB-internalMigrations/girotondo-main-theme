@@ -336,8 +336,7 @@
 
 .swiperCaret .caretIcon{
   padding: 4px 0px 4px 4px;
-  background: #0060a3;
-  color: #fff;
+  color: #0060a3;
   border-radius: 3px;
 }
 
@@ -346,13 +345,12 @@
 }
 
 .productImagesThumbCaret{
-  background: #0060a3;
   padding: 0px;
   border-radius: 3px;
 }
 
 .productImagesThumbCaret{
-  color: #fff;
+  color: #0060a3;
 }
 
 .carouselGaleryThumbs{
@@ -361,10 +359,12 @@
 
 .gradientBaseBottom{
   box-shadow: 0px -3px 8px 9px #fff;
+  background: #fff;
 }
 
 .gradientBaseTop{
   box-shadow: 0px 3px 8px 9px #fff;
+  background: #fff;
 }
 
 @media only screen and (min-width: 40em){
