@@ -1,9 +1,22 @@
-.buttonLink :global(.vtex-button){
-    max-width: 30px;
+.container{
+    background: #09609f;
+    margin-bottom: 20px;
 }
 
+.container :global(.vtex-button){
+    background: #09609f;
+}
+
+.profileIcon--login-desktop{
+    color: #fff;
+}
+.container :global(.vtex-button__label){
+    padding: 0px 8px 0px 20px !important;
+}
 .label{
-    color: #09609f;
+    color: #fff;
+    font-size: 15px;
+    display: block;
 }
 
 
@@ -18,18 +31,20 @@
         color: #ff6600;
     }
     */
-    .container :global(.vtex-button){
-        background: #09609f;
-    }
-
-    .profileIcon--login-desktop{
+    .label{
         color: #fff;
+        font-size: 0px;
+        display: none;
     }
-
+    .container{
+        background: #10588d00;
+        margin-bottom: 0px;
+        padding: 5px 0px;
+    }
     .label{
         display: none;
     }
-    .container :global(.vtex-button__label){
-        padding: 0px 8px 0px 20px !important;
+    .buttonLink :global(.vtex-button){
+        max-width: 30px;
     }
 }

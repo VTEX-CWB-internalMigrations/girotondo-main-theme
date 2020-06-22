@@ -172,7 +172,6 @@
       "drawer",
       "logo#mobile",
       "header-spacer",
-      "login",
       "minicart"
     ],
     "props": {
@@ -182,7 +181,19 @@
   },
   "drawer": {
     "children": [
+      "flex-layout.row#drawerRow",
+      "login",
       "vtex.menu@2.x:menu#header-mobile"
+    ]
+  },
+  "flex-layout.row#drawerRow":{
+    "children":[
+      "flex-layout.col#drawerCol"
+    ]
+  },
+  "flex-layout.col#drawerCol":{
+    "children":[
+      
     ]
   },
 
