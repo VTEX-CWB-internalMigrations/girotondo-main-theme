@@ -25,6 +25,10 @@
   display: none;
 }
 
+.arrowsContainerWrapper--desktopCarousel{
+  display: none;
+}
+
 .sliderRoot--mobileCarousel{
   display: block;
 }
@@ -47,6 +51,10 @@
   }
   
   .sliderRoot--mobileCarousel{
+    display: none;
+  }
+
+  .arrowsContainerWrapper--mobileCarousel{
     display: none;
   }
 }

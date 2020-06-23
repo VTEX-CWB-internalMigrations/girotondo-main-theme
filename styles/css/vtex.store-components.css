@@ -413,6 +413,6 @@
 
   .infoCardImage--info-card-featured{
     height: 530px;
-    max-height: fit-content;
+    max-height: inherit;
   }
 }
