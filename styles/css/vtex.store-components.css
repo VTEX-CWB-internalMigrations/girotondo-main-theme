@@ -177,10 +177,6 @@
   height: 65px;
 }
 
-.specificationsTabsContainer :global(.vtex-tab__button):last-child{
-  display: none;
-}
-
 .specificationsTabsContainer :global(.vtex-tab__button--active){
   border-bottom: 2px solid #f7eb14;
 }

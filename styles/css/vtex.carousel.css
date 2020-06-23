@@ -33,6 +33,10 @@
   display: block;
 }
 
+.caretIcon--desktopCarousel{
+  color: #0060a1;
+}
+
 @media only screen and (min-width: 80em){
   .containerDots{margin-bottom: 70px;}
 
@@ -56,5 +60,9 @@
 
   .arrowsContainerWrapper--mobileCarousel{
     display: none;
+  }
+
+  .arrowsContainerWrapper--desktopCarousel{
+    display: block;
   }
 }
