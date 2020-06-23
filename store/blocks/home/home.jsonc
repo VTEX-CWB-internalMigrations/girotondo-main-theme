@@ -3,6 +3,7 @@
     "blocks": [
       "flex-layout.row#deals",
       "carousel#default",
+      "carousel#mobile",
       "list-context.image-list#brands",
       // "flex-layout.row#banner-featured",
       /* You can make references to blocks defined in other files.
@@ -29,15 +30,14 @@
   // Caroussel
   "carousel#default": {
     "props": {
+      "blockClass": "desktopCarousel",
       "autoplay": false,
       "banners": [
         {
-          "image": "https://brasiltatica.vteximg.com.br/assets/vtex.file-manager-graphql/images/banner-01___01e2fe83dce5545580c2a5a5f5079da6.jpg",
-          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
+          "image": "https://brasiltatica.vteximg.com.br/assets/vtex.file-manager-graphql/images/banner-01___01e2fe83dce5545580c2a5a5f5079da6.jpg"
         },
         {
-          "image": "https://brasiltatica.vteximg.com.br/assets/vtex.file-manager-graphql/images/banner-01___01e2fe83dce5545580c2a5a5f5079da6.jpg",
-          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
+          "image": "https://brasiltatica.vteximg.com.br/assets/vtex.file-manager-graphql/images/banner-01___01e2fe83dce5545580c2a5a5f5079da6.jpg"
         }
       ],
       "height": 455,
@@ -45,6 +45,25 @@
       "showDots": true
     }
   },
+
+  "carousel#mobile":{
+    "props": {
+      "blockClass": "mobileCarousel",
+      "autoplay": false,
+      "banners": [
+        {
+          "mobileImage": "https://brasiltatica.vteximg.com.br/assets/vtex.file-manager-graphql/images/banner-01___01e2fe83dce5545580c2a5a5f5079da6.jpg"
+        },
+        {
+          "mobileImage": "https://brasiltatica.vteximg.com.br/assets/vtex.file-manager-graphql/images/banner-01___01e2fe83dce5545580c2a5a5f5079da6.jpg"
+        }
+      ],
+      "height": 455,
+      "showArrows": true,
+      "showDots": true
+    }
+  },
+
   // Banners featured
   "flex-layout.row#banner-featured": {
     "children": [

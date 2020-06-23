@@ -21,6 +21,14 @@
 }
 */
 
+.sliderRoot--desktopCarousel{
+  display: none;
+}
+
+.sliderRoot--mobileCarousel{
+  display: block;
+}
+
 @media only screen and (min-width: 80em){
   .containerDots{margin-bottom: 70px;}
 
@@ -30,5 +38,15 @@
 
   .imgRegular{
     max-height: initial !important;
+  }
+}
+
+@media only screen and (min-width: 630px){
+  .sliderRoot--desktopCarousel{
+    display: block;
+  }
+  
+  .sliderRoot--mobileCarousel{
+    display: none;
   }
 }
