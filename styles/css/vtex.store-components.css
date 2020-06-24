@@ -363,6 +363,10 @@
   background: #fff;
 }
 
+.productImagesThumb{
+  overflow: hidden;
+}
+
 @media only screen and (min-width: 40em){
   .resultsList{
     z-index: 99999999;

@@ -385,6 +385,25 @@
   color: #000 !important;
 }
 
+.paragraph--footer-textDefault:first-child{
+  display: flex;
+  max-width: 155px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+
+.paragraph--footer-textDefault .image--footer-textDefault{
+  width: 22px;
+  margin: 5px 3px 5px 0px;
+}
+
+
+.paragraph--footer-textDefault .image--footer-textDefault:first-child{
+  width: 15px;
+  margin: 10px 5px;
+}
+
 @media only screen and (min-width: 40em){
   .container--link-regulation{
     text-align: center;
