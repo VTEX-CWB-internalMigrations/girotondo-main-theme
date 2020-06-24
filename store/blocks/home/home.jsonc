@@ -1,7 +1,6 @@
 {
   "store.home": {
     "blocks": [
-      "flex-layout.row#deals",
       "carousel#default",
       "carousel#mobile",
       "list-context.image-list#brands",
@@ -22,7 +21,8 @@
       "flex-layout.row#featured1-grid",
       "flex-layout.row#featured2-grid",
       "flex-layout.row#featured3-grid",
-      "flex-layout.row#featured4-grid"
+      "flex-layout.row#deals"
+      //"flex-layout.row#featured4-grid"
       // "tab-layout#shelf-tabs",
       // "newsletter"
     ]
