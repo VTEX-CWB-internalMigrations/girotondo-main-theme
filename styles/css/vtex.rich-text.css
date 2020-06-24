@@ -376,6 +376,15 @@
   font-family: muli;
 }
 
+.listItem--content-intitutional{
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.listItem--content-intitutional .link--content-intitutional{
+  color: #000 !important;
+}
+
 @media only screen and (min-width: 40em){
   .container--link-regulation{
     text-align: center;
