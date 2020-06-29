@@ -9,7 +9,7 @@
 
 
 .container--contact-header .paragraph{color:#09609f;}
-.link--content-intitutional{color:#ffffff !important;}
+.link--content-intitutional{color:#999 !important;}
 .container--contact-header .link, .container--contact-header .link--text-securitySell{
   color:#09609f;
   text-decoration: none;
@@ -404,6 +404,13 @@
   margin: 10px 5px;
 }
 
+.container--whatsapp-function{
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+  max-width: 40px;
+}
+
 @media only screen and (min-width: 40em){
   .container--link-regulation{
     text-align: center;
@@ -412,6 +419,10 @@
     margin-bottom: 2em;    
   }
   
+  .container--whatsapp-function{
+    max-width: unset;
+  }
+ 
   .container--contact-header .paragraph{
     line-height:1;
     font-size: .8em;

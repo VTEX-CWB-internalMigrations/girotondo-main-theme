@@ -9,9 +9,18 @@
     "children": [
       "flex-layout.row#footer-1-desktop",
       "flex-layout.row#footer-2-desktop",
-      "flex-layout.row#footer-3-desktop"
+      "flex-layout.row#footer-3-desktop",
+      "rich-text#whatsappFunction"
     ]
   },
+
+  "rich-text#whatsappFunction":{
+    "props":{
+      "text": "[![Link para o whatsapp da Girotondo](https://girotondo.vteximg.com.br/arquivos/girotondo-whatsApp.png)](https://api.whatsapp.com/send?phone=5511950856339)",
+      "blockClass": "whatsapp-function"
+    }
+  },
+
   /* Footer row 1 */
   "flex-layout.row#footer-1-desktop":{
     "children":[
@@ -186,7 +195,8 @@
   // Footer mobile
   "footer-layout.mobile": {
     "children": [
-      "flex-layout.row#2-footer-mobile"
+      "flex-layout.row#2-footer-mobile",
+      "rich-text#whatsappFunction"
     ]
   },
   "flex-layout.row#2-footer-mobile": {
