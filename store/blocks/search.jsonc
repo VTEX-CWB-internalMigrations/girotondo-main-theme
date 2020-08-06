@@ -13,8 +13,6 @@
     "blocks": ["search-result-layout"],
     "props": {
       "context": {
-        "orderByField": "OrderByReleaseDateDESC",
-        "hideUnavailableItems": true,
         "maxItemsPerPage": 20,
         "installmentCriteria": "MAX_WITH_INTEREST"
       }
