@@ -3,7 +3,8 @@
     "blocks": [
       "carousel#default",
       "carousel#mobile",
-      "list-context.image-list#brands",
+      "image#differentialImage",
+      //"list-context.image-list#brands",
       // "flex-layout.row#banner-featured",
       /* You can make references to blocks defined in other files.
        * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
@@ -27,6 +28,13 @@
       // "newsletter"
     ]
   },
+
+  "image#differentialImage":{
+    "props":{
+      "blockClass": "mini-image"
+    }
+  },
+
   // Caroussel
   "carousel#default": {
     "props": {
