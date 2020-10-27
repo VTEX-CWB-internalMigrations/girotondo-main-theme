@@ -366,6 +366,16 @@
 .productImagesThumb{
   overflow: hidden;
 }
+.imageElement--vtex-logo{
+  max-width: 135px;
+  margin: 20px 0px;
+}
+
+.imageElement--vtex-logo-mobile{
+  max-width: 135px;
+  margin: 0px auto;
+  display: flex;
+}
 
 @media only screen and (min-width: 40em){
   .resultsList{
