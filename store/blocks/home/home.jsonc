@@ -4,8 +4,8 @@
       "carousel#default",
       "carousel#mobile",
       "image#differentialImage",
-      //"list-context.image-list#brands",
-      // "flex-layout.row#banner-featured",
+      "list-context.image-list#brands",
+      //"flex-layout.row#banner-featured",
       /* You can make references to blocks defined in other files.
        * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
       "rich-text#shelfTitle",
