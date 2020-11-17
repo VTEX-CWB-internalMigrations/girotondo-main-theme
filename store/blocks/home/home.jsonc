@@ -339,7 +339,8 @@
     "props": {
       "blockClass": "price-special",
       "showInstallments": true,
-      "showDiscountValue": true
+      "showDiscountValue": true,
+      "showListPrice": true
     }
   },
   "product-summary-buy-button#special": {
@@ -554,7 +555,8 @@
   "product-summary-price": {
     "props": {
       "showInstallments": true,
-      "showDiscountValue": true
+      "showDiscountValue": true,
+      "showListPrice": true
     }
   },
   // Banners segmentados
