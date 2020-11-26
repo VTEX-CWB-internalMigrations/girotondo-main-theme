@@ -4,6 +4,7 @@
       "flex-layout.row#product-breadcrumb",
       "flex-layout.row#product-main",
       // "flex-layout.row#banner-specification",
+      //"flex-layout.col#badges",
       "flex-layout.row#product-description",
       "shelf.relatedProducts#productPage",
       "product-reviews",
@@ -13,6 +14,26 @@
       "blockClass":"master-product"
     }
   },
+
+  "flex-layout.col#badges":{
+    "children":[
+      "product-specification-badges#product"
+    ],
+    "props":{
+      "blockClass": "BADGES-ROW"
+    }
+  },
+
+  "product-specification-badges#product":{
+    "props":{
+      "specificationGroupName": "allSpecifications",
+      "specificationsOptions": [{
+        "specificationName": "Lancamento",
+        "displayValue": "Lançamento"
+      }]
+    }
+  },
+
   "shelf.relatedProducts#productPage":{
     "blocks":[
       "product-summary.shelf"

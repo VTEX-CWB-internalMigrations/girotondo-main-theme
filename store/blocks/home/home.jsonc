@@ -241,6 +241,7 @@
   },
   "product-summary.shelf#featured": {
     "children": [
+      "product-summary-specification-badges#lancamento",
       "stack-layout#prodsum",
       "product-summary-name",
       "product-summary-price",

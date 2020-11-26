@@ -38,6 +38,19 @@
       "product-summary-image"
     ]
   },
+
+  "product-summary-specification-badges#lancamento":{
+    "props":{
+      "specificationGroupName": "allSpecifications",
+      "specificationsOptions": [
+        {
+          "specificationName": "Lancamento",
+          "displayValue": "Lançamento"
+        }
+      ]
+    }
+  },
+
   "store.product-review-form": {
     "blocks": [
       "product-review-form"

@@ -241,6 +241,7 @@
   },
   "product-summary.shelf":{
     "children": [
+      "product-summary-specification-badges#lancamento",
       "product-summary-image",
       "product-summary-name",
       "product-summary-space",
